@@ -1,25 +1,25 @@
 \documentclass[a4paper,titlepage,11pt]{article}
-\usepackage[centertags]{amstex}			% higher mathematics (AMS)
-\usepackage[dvips]{graphics}			% graphics extensions
-\usepackage{rotating}				% rotate eps-figures
-\usepackage{caption} 				% nicer figure-captions
-\usepackage{exscale}				% scale math-symbols correctly
-\usepackage{a4,german}				% extensions for german
-\usepackage[dcucite,abbr,round]{harvard}	% citationstyle
-\usepackage{epsfig,epic,eepic}			% Xfig- and EPS-figures
-\usepackage{fancyheadings}			% some fancy headings
-
+\usepackage[centertags]{amsmath}            % higher mathematics (AMS)
+\usepackage{amsfonts}                       % higher mathematics symbols (AMS)
+\usepackage[dvips]{graphics}                % graphics extensions
+\usepackage{rotating}                       % rotate eps-figures
+\usepackage{caption}                        % nicer figure-captions
+\usepackage{exscale}                        % scale math-symbols correctly
+\usepackage[german]{babel}                  % extensions for german
+\usepackage[utf8]{inputenc}                 % enable UTF-8
+\usepackage[dcucite,abbr,round]{harvard}    % citationstyle
+\usepackage{epsfig,epic,eepic}              % Xfig- and EPS-figures
+\usepackage{fancyhdr}                       % some fancy headings
 
 % some hacks before we start
 \pagestyle{fancyplain}
 \input{hacks.tex}
 %\psdraft
 \sloppy
-%\includeonly{modell}
 \renewcommand{\harvardand}{und}
 \harvardyearparenthesis{round}
 
-% reset counter in every Section 
+% reset counter in every Section
 \numberwithin{equation}{section}
 %\numberwithin{footnote}{section}
 \numberwithin{figure}{section}
@@ -27,7 +27,7 @@
 % main()
 \begin{document}
 
-\include{titel} 
+\include{titel}
 \include{einleitung}
 \include{biologie}
 \include{modell}
@@ -37,27 +37,7 @@
 \include{anhang1}
 \include{anhang2}
 \clearpage
-\bibliographystyle{apasc}
-\bibliography{/home/frank/texte/BIBTeX/diplom,/home/frank/texte/BIBTeX/neuro}
-%\include{danksagung}
+\bibliographystyle{acm}
+\bibliography{bibtex/diplom,bibtex/neuro}
 
 \end{document}
-
-%
-% Diplom-Plan:
-%
-%  Seiten Inhalt
-% ------------------------------------------------------
-%   (1)   Titel
-%   (3)   Einleitung: Physik im Hirn
-%  (14)   Ueberblick Phaenomene + Datenauswertung
-%   (5)   elastisches Netz
-%  (10)   Sequentielles Bifurkationsszenarium
-%   (2)   Zusammenfassung
-%   (4)   Anhang A: Entwicklung der Energie
-%   (2)   Anhang B: Numerik
-%   (3)   50-60 Referenzen
-%   (1)   Erklaerung
-%  =====
-%   45
-%

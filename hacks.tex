@@ -1,44 +1,44 @@
 %
 % change fonts fort section titles and captions
 %
-\makeatletter						% allow use of '@' sign
-\renewcommand{\section}{\@startsection%			%
-{section}{1}{\z@}%					%
-{-3.5ex \@plus -1ex \@minus -.2ex}%			%
-{2.3ex \@plus.2ex}%					%
-{\reset@font\Large\bfseries\sffamily}}%			%
-\renewcommand{\subsection}{\@startsection%		%
-{subsection}{2}{\z@}%					%	
-{-3.25ex\@plus -1ex \@minus -.2ex}%			%
-{1.5ex \@plus .2ex}%					%
-{\reset@font\large\bfseries\sffamily}}			%
-\renewcommand{\subsubsection}{\@startsection%		%
-{subsubsection}{3}{\z@}%				%
-{-3.25ex\@plus -1ex \@minus -.2ex}%			% new font for \section etc.
-{1.5ex \@plus .2ex}%					%
-{\reset@font\normalsize\bfseries\sffamily}}		%
-\renewcommand{\paragraph}{\@startsection%		%
-{paragraph}{4}{\z@}%					%
-{3.25ex \@plus1ex \@minus.2ex}%				%
-{-1em}%							%
-{\reset@font\normalsize\bfseries\sffamily}}		%
-\renewcommand{\subparagraph}{\@startsection%		%
-{subparagraph}{5}{\parindent}%				%
-{3.25ex \@plus1ex \@minus .2ex}%			%
-{-1em}%							%
-{\reset@font\normalsize\sffamily}}			%
-\makeatother						% protect use of '@' sign
-\renewcommand{\captionlabelfont}{\bfseries\sffamily}	% captionlabelfont...
+\makeatletter                                           % allow use of '@' sign
+\renewcommand{\section}{\@startsection%                 %
+{section}{1}{\z@}%                                      %
+{-3.5ex \@plus -1ex \@minus -.2ex}%                     %
+{2.3ex \@plus.2ex}%                                     %
+{\reset@font\Large\bfseries\sffamily}}%                 %
+\renewcommand{\subsection}{\@startsection%              %
+{subsection}{2}{\z@}%                                   %
+{-3.25ex\@plus -1ex \@minus -.2ex}%                     %
+{1.5ex \@plus .2ex}%                                    %
+{\reset@font\large\bfseries\sffamily}}                  %
+\renewcommand{\subsubsection}{\@startsection%           %
+{subsubsection}{3}{\z@}%                                %
+{-3.25ex\@plus -1ex \@minus -.2ex}%                     % new font for \section etc.
+{1.5ex \@plus .2ex}%                                    %
+{\reset@font\normalsize\bfseries\sffamily}}	            %
+\renewcommand{\paragraph}{\@startsection%               %
+{paragraph}{4}{\z@}%                                    %
+{3.25ex \@plus1ex \@minus.2ex}%                         %
+{-1em}%                                                 %
+{\reset@font\normalsize\bfseries\sffamily}}             %
+\renewcommand{\subparagraph}{\@startsection%            %
+{subparagraph}{5}{\parindent}%                          %
+{3.25ex \@plus1ex \@minus .2ex}%                        %
+{-1em}%                                                 %
+{\reset@font\normalsize\sffamily}}                      %
+\makeatother                                            % protect use of '@' sign
+\renewcommand{\captionlabelfont}{\bfseries\sffamily}    % captionlabelfont...
 
 
 %
 % miscellaneous stuff
 %
-\addtolength{\headwidth}{0.6\marginparwidth}    % make headline wider
-\addtolength{\headheight}{2.5pt}    		% make headline higher
-\setlength{\plainheadrulewidth}{0.4pt}		% plain headrule
-\setlength{\parskip}{0.0pt}			% no skip at new paragraph
-%\setlength{\parindent}{0.0pt}			% no indent at new paragraph
+\addtolength{\headwidth}{0.6\marginparwidth}            % make headline wider
+\addtolength{\headheight}{2.5pt}                        % make headline higher
+%\setlength{\plainheadrulewidth}{0.4pt}                 % plain headrule
+\setlength{\parskip}{0.0pt}                             % no skip at new paragraph
+%\setlength{\parindent}{0.0pt}                          % no indent at new paragraph
 
 
 %
