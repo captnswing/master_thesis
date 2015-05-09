@@ -1,0 +1,161 @@
+\section{Zusammenfassung und Diskussion}
+\label{zusammenfassung}
+\thispagestyle{plain}
+
+In der vorliegenden Arbeit wurde ein Szenarium f"ur die koordinierte
+Entwicklung von Okulardominanz-- und Orientierungskarten entwickelt.  Wie
+in Kapitel~\ref{main} gezeigt, bietet die aus der Sicht der Nichtlinearen
+Dynamik plausible Annahme dynamischer Umordnung und Interaktion der
+Okulardominanz-- und Orientierungspr"aferenzkarten eine einfache und
+einheitliche Erkl"arung f"ur die unterschiedliche Erscheinung dieser
+Strukturen im visuellen Cortex von Affen und Katzen.  Das streifige
+Erscheinungsbild der OD--Karte aus V1 des Affen kann durch dynamische
+Umordnung des Musters nach seiner Entstehung, in Abwesenheit
+orientierungsspeziefischer Zellen erkl"art werden.  Die perlige Struktur
+der OD--Karte in A17 der Katze wird durch die Wechselwirkung des Musters
+der Okulardominanz mit der bereits etablierten Orientierungskarte
+erkl"art. Diese f"uhrt dazu, da"s die Grenzlinien der entstehenden
+OD--Dom"anen h"aufig geschlossene Kurven um Pinwheels bilden und verhindert
+die Umordnung der OD--Karte in ein anisotropes Muster mit globaler
+Vorzugsrichtung.
+
+\begin{quote}
+In diesem Bild wird das Layout einer neuronalen Karte also
+entscheidend durch den \emph{Zeitpunkt} ihrer Entstehung bestimmt.  Dieser
+spezielle Zeitpunkt bestimmt auch die Wellenl"ange des Musters: Die
+Vorhersage des sequentiellen Bifurkationsszenariums ist, da"s in allen Spezies
+die Karte mit der \emph{gr"o"seren} Wellenl"ange \emph{fr"uher} entsteht.
+\end{quote}
+
+In V1 des Affen sind nach der Geburt sowohl orientierungsselektive als auch
+okulardominante Zellen vorhanden~\cite{blakemore:1978}, daher ist keine sichere
+Aussage "uber die zeitliche Abfolge ihrer Spezialisierung m"oglich.
+\citeasnoun{rakic:1981} beschreibt allerdings, da"s die
+Okulardominanzsegregation ca.~3~Wochen vor der Geburt einsetzt. Aus
+A17 der Katze ist bekannt, da"s hier die Zellen in einem fr"uhen
+Stadium der Entwicklung bereits orientierungsselektiv sind
+\citeaffixed{movshon:1981,fregnac:1984}{siehe}, w"ahrend 
+die Okulardominanzkarte erst im Laufe der 3.--7. Woche nach der Geburt entsteht
+\cite{shatz:1978,levay:1979}. Dies stimmt mit der Vorhersage des
+sequentiellen Bifurkationsszenariums "uberein.
+
+\citeasnoun{jones:1991} haben eine alternative Erkl"arung des
+unterschiedlichen Erscheinungsbildes von Okulardominanzkarten in Katzen und
+Affen vorgeschlagen. Die Autoren argumentieren, da"s der hohe Grad
+r"aumlicher Koh"arenz der OD--Karte im Affen Anisotropien der retinotopen
+Abbildung vom Gesichtsfeld in den Cortex reflektiert. Das isotrope OD--Muster
+in der Katze ist demnach Ausdruck einer isotropen retino--corticalen
+Abbildung.  Die Autoren benutzen ein nicht weiter biologisch motiviertes
+Optimierungsverfahren zur numerischen Evaluation ihrer
+Hypothese,\footnote{\citeasnoun{bauer95b} konnte jedoch zeigen, da"s sich
+neuronale Merkmalskarten unter diesen Annahmen "ahnlich Verhalten.} und
+behandeln die Okulardominanzstruktur unabh"angig von anderen, im visuellen
+Cortex vorhandenen Reizrepr"asentationen.  Die in Abschn.~\ref{90grad}
+vorgestellte Wechselwirkung zwischen den Mustern der Okulardominanz und der
+Orientierungspr"aferenz l"a"st die isolierte Untersuchung der
+Okulardominanz jedoch fragw"urdig erscheinen.
+\setcounter{footnote}{1}
+
+Es ist wichtig anzumerken, da"s die in Kapitel~\ref{main} vorgestellten
+Simulationsergebnisse keineswegs von der speziellen Wahl der
+Dynamik~\eqref{endyn} abh"angen, vielmehr jedoch von den folgenden,
+allgemeinen Eigenschaften:
+ 
+\begin{itemize}
+\item die Gr"o"se eines typischen, durch einen Stimulus hervorgerufenen
+Erregungsgebietes im Cortex bestimmt die Wellenl"ange der entstehenden
+kolumn"aren Struktur
+\item diese Gr"o"se nimmt mit der Zeit ab
+\item kolumn"are Strukturen entstehen nur unterhalb einer kritischen
+Gr"o"se des Erregungsgebietes. Oberhalb dieser kritischen
+Kooperationsreichweite bleibt die homogene L"osung stabil.
+\end{itemize}
+
+Jedes Modell, das diese allgemeinen Eigenschaften mit der
+Dynamik~\eqref{endyn} gemeinsam hat, ist geeignet die Entstehung
+kolumn"arer Muster unterschiedlicher Wellenl"ange anhand des sequentiellen
+Bifurkationsszenariums zu beschreiben. Das hier verwendete
+elastische Netz ist also nur ein Vertreter aus einer viel umfangreicheren
+Klasse von Modellen. Die Verwendung des elastischen Netzes rechtfertigt
+sich dabei vor allem durch den leichten analytischen Zugang zu den
+Musterbildungsmechanismen dieses Modells, sowie durch den vertretbaren,
+numerischen Aufwand bei der Implementierung der Dynamik auf Computern.
+
+Die konsequente Interpretation der aktivit"atsabh"angigen
+Selbstorganisation neuronaler Karten als dynamischer Prozess dient auch der
+einheitlichen Erkl"arung eines anderen Speziesunterschieds.
+Orientierungskarten aus V1 des Affen und A17 strabismischer und
+normalsichtiger Katzen unterscheiden sich in der der Dichte ihrer
+Punktdefekte: Wird zum Speziesvergleich die Dichte der Pinwheels $\rho
+[1/mm^2]$ einer Orientierungskarte mit der charakteristischen Wellenl"ange
+$\Lambda_{\text{OP}}$ dieser Karte skaliert, so ergibt sich im Affen ein
+Wert von $\hat{\rho}=\rho \Lambda_{\text{OP}}^2\approx 3.75$ ($\hat{\rho}$
+mi"st dann die relative H"aufigkeit der Pinwheels in einem K"astchen der
+Seitenl"ange $\Lambda_{\text{OP}}$). In der Katze ist diese Gr"o"se immer
+merklich kleiner als $3$, nach vorliegenden, z.T. unver"offentlichten
+Messungen betr"agt der Wert $\hat{\rho}\approx 2.4$ f"ur normalsichtige und
+$\hat{\rho}\approx 3.0$ f"ur strabismische Katzen.
+
+\citeasnoun{wolf:1996} konnten zeigen, da"s die skalierte Dichte in allen
+Spezies anf"anglich gr"o"ser als $\pi$ sein mu"s. In Tieren, in denen der
+adulte Wert von $\hat{\rho}$ deutlich unter $\pi$ liegt mu"s dieser
+geringere Wert folglich durch Annihilation von Pinwheels entgegengesetzter
+Chiralit"at in Folge eines Umordnungsprozesses der Karte w"ahrend der
+Entwicklung erreicht worden sein. Das Auftreten unterschiedlicher
+skalierter Pinwheeldichten $\hat{\rho}$ in verschiedenen Spezies kann unter
+Ber"ucksichtigung der Wechselwirkung zwischen den Mustern der
+Okulardominanz und der Orientierungspr"aferenz durch die beobachtete
+Korrelation der Pinwheeldichte mit dem Grad der Okulardominanzsegregation
+erkl"art werden.
+
+Im Folgenden versuchen wir die Frage zu beantworten warum die kritische
+Kooperationsreichweite der Okulardominanz im Affen, wie im sequentiellen
+Bifurkationsszenarium gefordert, gr"o"ser sein sollte als die der
+Orientierungspr"aferenz (und aus welchen Gr"unden dieses Verh"altnis in der
+Katze dann umgekehrt ist).
+
+Die Tendenz der Neurone, sich auf Reize aus einem Auge zu spezialisieren
+wird in biologischen Systemen durch die unvollst"andige Korrelation der
+Aktivit"at in den beiden Augen bestimmt: Es ist daher anzunehmen, da"s
+diese Tendenz der Neurone mit abnehmender Korrelation zwischen beiden Augen
+zunimmt.  Dies wird auch durch Beobachtungen an strabismischen Katzen
+belegt: Durch Induzierung eines k"unstlichen Schielwinkels sind die
+Aktivit"aten beider Augen v"ollig dekorreliert und f"uhren zur
+vollst"andigen Segregation der Afferenzen aus beiden Augen
+(vgl. Abb.~\ref{okuhist}, Mitte).
+
+Der kritische Wert der Kooperationsreichweite $\sigma^\ast_{\text{OD}}$ ist
+im Modell ein Ma"s f"ur die Tendenz der Neurone, sich auf Signale aus einem
+der beiden Augen zu spezialisieren. Je gr"o"ser $\sigma^\ast_{\text{OD}}$,
+desto gr"o"ser mu"s die Kooperationsreichweite der Neurone sein um die
+Segregation zu verhindern. Es ist daher anzunehmen, da"s dieser kritische
+Wert von den Korrelationen beider Augen bestimmt wird: Wachsende
+Korrelationen sollten zu einer Verkleinerung des kritischen Wertes f"uhren.
+Dies ist in der Tat in detaillierten Modellen der Okulardominanzsegregation
+der Fall \cite{scherf:1994}. 
+
+Im Affen beginnt die Okulardominanzsegregation bereits vor der Geburt
+\cite{rakic:1981} und erfolgt daher unter dem Einflu"s
+notwendigerweise dekorrelierter Spontanaktivit"at der beiden Retinae.  In
+Katzen hingegen vollzieht sich die Entwicklung des visuellen Cortex erst
+nach der Geburt, und erfolgt weitgehend unter dem Einflu"s korrelierter
+Aktivit"at aus beiden Augen nach Augen"offnung.  Mit diesem Zusammenhang
+kann auch die in strabismischen Katzen beobachtete Vergr"o"serung der
+Okulardominanzwellenl"ange gegen"uber normalsichtigen Katzen erkl"art
+werden: Der erh"ohte Wert von $\sigma^\ast_{\text{OD}}$ f"uhrt analog zum
+sequentiellen Bifurkationsszenarium zur fr"uheren Entstehung des Musters,
+und damit zu einer Vergr"o"serung der Wellenl"ange
+\citeaffixed{scherf:1994}{siehe auch}.
+
+Diese Erkl"arung legt eine interessante Verifikation des hier entwickelten
+Szenariums nahe: Sollte es durch fr"uhste Dekorrelation der Eingangsaktivit"at
+der Augen m"oglich sein, die Okulardominanzsegregation zu induzieren, bevor
+sich das Muster der Orientierungspr"aferenzen ausbildet, so m"u"ste sich in
+diesen Katzen ein ``affen"ahnliches'' OD--Muster ausbilden.  Chronisches
+optisches Ableiten neuronaler Karten w"ahrend des Entwicklungszeitraumes
+wird in zuk"unftigen Experimenten am visuellen Cortex einzelner Katzen oder
+Affen eine geeignete M"oglichkeit bieten, die in dieser Arbeit
+vorgeschlagenen Mechanismen auf ihre G"ultigkeit hin zu "uberpr"ufen.
+
+\nocite{hoffsuemmer95a,hoffsuemmer96}
+

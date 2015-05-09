@@ -1,0 +1,143 @@
+\section{Entwicklung der Energie des elastischen Netzes}
+\label{anhang1}
+\thispagestyle{plain}
+
+\noindent Wir betrachten das Potential~\eqref{energie}
+
+\begin{small}
+\begin{eqnarray}
+E\left(\mathbf{R}_A(x)\right)&=&-\;\sigma^2\lim_{L\to\infty}\int\limits_{-L}^{L}\!\!\frac{1}{2L}\int\limits_{-r}^{r}\!\!\frac{1}{2r}\;\;\ln\!\!\int\limits_{-\infty}^{\infty}\!\!\!\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right)dx\;\;dS_y dS_x\nonumber\\
+&&+\;\frac{\eta}{2}\;\lim_{L\to\infty}\int\limits_{-L}^{L}\!\!\frac{1}{2L}\;\left[\partial_x\mathbf{R}_A(x)\right]^2\;dx
+\label{energieanh}
+\end{eqnarray}
+\end{small}
+
+\noindent mit dem Ansatz
+
+\begin{small}
+\begin{eqnarray*}
+\mathbf{R}_A(x)&=&{x\choose A\cos(kx)}.
+\end{eqnarray*}
+\end{small}
+
+\noindent Die Taylorentwicklung des Potentials bis zu Gliedern der 4.~Ordnung lautet
+unter diesem Ansatz:
+
+\begin{small}
+\begin{equation*}
+E = E\big\vert_{A=0} \;\;+\;\;
+\frac{1}{2}\partial_A^2E\big\vert_{A=0}A^2 \;\;+\;\;
+\frac{1}{24}\partial_A^4E\big\vert_{A=0}A^4 \;\;+\;\; O(A^6) 
+\end{equation*}
+\end{small}
+
+\noindent Unter der Ber"ucksichtigung von
+
+\small
+$$\frac{\eta}{2}\;\lim_{L\to\infty}\int\limits_{-L}^{L}\!\!\frac{1}{2L}\;\left[\partial_x\mathbf{R}_A(x)\right]^2\;dx = \frac{\eta}{2}\left(1+\frac{(Ak)^2}{2}\right)$$
+\normalsize
+
+\noindent und mit der Definition
+
+\begin{small}
+\begin{equation}
+\Theta :=\int\limits_{-\infty}^{\infty}\!\!\!\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right)\;dx
+\label{theta}
+\end{equation}
+\end{small}
+
+\noindent folgt f"ur die Energie~\eqref{energieanh} und ihre ersten vier Ableitungen:
+
+\begin{small}
+\begin{eqnarray*}
+E &=& -\sigma^2 \int\!\!\!\int \ln \Theta\;\;+\;\;\frac{\eta}{2}\left(1+\frac{(kA)^2}{2}\right)\\
+&&\\
+\partial_A E &=& -\sigma^2 \int\!\!\!\int \frac{1}{\Theta}\,\, \partial_A\Theta\;\;+\;\;\frac{1}{2}\eta k^2A\\
+&&\\
+\partial_A^2 E &=& \sigma^2 \int\!\!\!\int \frac{1}{\Theta^2}\,\,\left(\partial_A\Theta\right)^2\;\;-\;\;\sigma^2\int\!\!\!\int\frac{1}{\Theta}\,\,\partial_A^2\Theta\;\;+\;\;\frac{1}{2}\eta k^2\\
+\end{eqnarray*}
+\end{small}
+
+\begin{small}
+\begin{eqnarray*}
+\partial_A^3 E &=& -2\sigma^2\int\!\!\!\int\frac{1}{\Theta^3}\,\,\left(\partial_A\Theta\right)^3\;\;+\;\;3\sigma^2\int\!\!\!\int\frac{1}{\Theta^2}\,\,\partial_A\Theta\,\,\partial_A^2\Theta\;\;-\;\;\sigma^2\int\!\!\!\int\frac{1}{\Theta}\,\,\partial_A^3\Theta\\
+&&\\
+\partial_A^4 E &=&6\sigma^2\int\!\!\!\int\frac{1}{\Theta^4}\,\,\left(\partial_A\Theta\right)^4\;\;-\;\;12\sigma^2\int\!\!\!\int\frac{1}{\Theta^3}\,\,\left(\partial_A\Theta\right)^2\,\,\partial_A^2\Theta\\
+&&+\;\;3\sigma^2\int\!\!\!\int\frac{1}{\Theta^2}\,\,\left(\partial_A^2\Theta\right)^2\;\;+\;\;4\sigma^2\int\!\!\!\int\frac{1}{\Theta^2}\,\,\partial_A\Theta\,\,\partial_A^3\Theta\;\;-\;\;\sigma^2\int\!\!\!\int\frac{1}{\Theta}\,\,\partial_A^4\Theta
+\end{eqnarray*}
+\end{small}
+
+\noindent Die hier erscheinenden Ableitungen von $\Theta$ ergeben sich
+aus~\eqref{theta} zu
+
+\begin{small}
+\begin{eqnarray*}
+{\partial_A} \Theta &=&\int\limits_{-\infty}^{\infty}\!\!\!dx\; \frac{1}{\sigma^2} \cos(kx)\left[S_y-A\cos(kx)\right] \;\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right)\\
+&&\\
+{\partial^2_A}  \Theta &=& -\int\limits_{-\infty}^{\infty}\!\!\!dx\; \frac{1}{\sigma^2} \cos^2(kx) \;\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right) \\
+&&+ \int\limits_{-\infty}^{\infty}\!\!\!dx\; \frac{1}{\sigma^4} \cos^2(kx)\left[S_y-A\cos(kx)\right]^2  \;\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right)\\
+&&\\
+{\partial^3_A}  \Theta &=& -3 \int\limits_{-\infty}^{\infty}\!\!\!dx\; \frac{1}{\sigma^4} \cos^3(kx) \left[S_y-A\cos(kx)\right] \;\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right) \\
+&&+ \int\limits_{-\infty}^{\infty}\!\!\!dx\; \frac{1}{\sigma^6} \cos^3(kx) \left[S_y-A\cos(kx)\right]^3 \;\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right)\\
+&&\\
+{\partial^4_A}  \Theta &=& 3 \int\limits_{-\infty}^{\infty}\!\!\!dx\; \frac{1}{\sigma^4} \cos^4(kx) \;\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right) \\
+&&- 6 \int\limits_{-\infty}^{\infty}\!\!\!dx\; \frac{1}{\sigma^6} \cos^4(kx) \left[S_y-A\cos(kx)\right]^2 \;\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right) \\
+&&+\int\limits_{-\infty}^{\infty}\!\!\!dx\; \frac{1}{\sigma^8} \cos^4(kx) \left[S_y-A\cos(kx)\right]^4 \;\exp\!\left(-[\mathbf{S}-\mathbf{R}_A(x)]^2/2\sigma^2\right)
+\end{eqnarray*}
+\end{small}
+
+\noindent Zu ihrer Berechnung ben"otigt man die Integrale
+
+\begin{small}
+\begin{eqnarray*}
+{\cal C}1 &:=&\;\;\int\limits_{-\infty}^{\infty}\!\!dx\;\cos(kx)\;\exp\!\left(-(x-S_x)^2/2\sigma^2)\right)=\sqrt{2\pi}\sigma\;\cos(kS_x)\;{\rm e}^{(-k^2\sigma^2/2)}\\
+{\cal C}2 &:=&\int\limits_{-\infty}^{\infty}\!\!dx\;\cos^2(kx)\;\exp\!\left(-(x-S_x)^2/2\sigma^2)\right)=\frac{1}{2}\sqrt{2\pi}\sigma\;\left[\cos(2kS_x)\;{\rm e}^{(-2k^2\sigma^2)}+1\right]
+\end{eqnarray*}
+\end{small}
+
+\begin{small}
+\begin{eqnarray*}
+{\cal C}3 &:=&\int\limits_{-\infty}^{\infty}\!\!dx\;\cos^3(kx)\;\exp\!\left(-(x-S_x)^2/2\sigma^2)\right)\\
+&=&\frac{1}{4}\sqrt{2\pi}\sigma\;\left[\cos(3kS_x)\;{\rm e}^{(-9k^2\sigma^2/2)}+3\cos(kS_x)\;{\rm e}^{(-k^2\sigma^2/2)}\right]\phantom{\int\limits_{-\infty}^{\infty}}\\
+{\cal C} 4 &:=&\int\limits_{-\infty}^{\infty}\!\!dx\;\cos^4(kx)\;\exp\!\left(-(x-S_x)^2/2\sigma^2)\right)\\
+&=&\frac{1}{8}\sqrt{2\pi}\sigma\;\left[\cos(4kS_x)\;{\rm e}^{(-8k^2\sigma^2)}+4\cos(2kS_x)\;{\rm e}^{(-2k^2\sigma^2)}+3\right]\phantom{\int\limits_{-\infty}^{\infty}}
+\end{eqnarray*}
+\end{small}
+
+\noindent Daraus folgt f"ur die Ableitungen von $\Theta$ and der Stelle $A=0$:
+
+\begin{small}
+\begin{eqnarray*}
+\Theta\big\vert_{A=0} &=& \sqrt{2\pi}\sigma\;\;{\rm e}^{(-S_y^2/2\sigma^2)}\\
+&&\\
+{\partial_A}
+\Theta\big\vert_{A=0}&=&\left(\frac{1}{\sigma^2}S_y\right)\;\;{\rm e}^{(-S_y^2/2\sigma^2)}\;\;{\big\{}{\cal C}1{\big\}}\\
+&&\\
+{\partial^2_A}
+\Theta\big\vert_{A=0}&=&\left(-\frac{1}{\sigma^2}+\frac{1}{\sigma^4}S_y^2\right)\;\;{\rm e}^{(-S_y^2/2\sigma^2)}\;\;{\big\{}{\cal C}2{\big\}}\\
+&&\\
+{\partial^3_A}
+\Theta\big\vert_{A=0}&=&\left(-\frac{3}{\sigma^4}S_y+\frac{1}{\sigma^6}S_y^3\right)\;\;{\rm e}^{(-S_y^2/2\sigma^2)}\;\;{\big\{}{\cal C}3{\big\}}\\
+&&\\
+{\partial^4_A} 
+\Theta\big\vert_{A=0}&=&\left(\frac{3}{\sigma^4}-\frac{6}{\sigma^6}S_y^2+\frac{1}{\sigma^8}S_y^4\right)\;\;{\rm e}^{(-S_y^2/2\sigma^2)}\;\;{\big\{}{\cal C}4{\big\}}\\
+\end{eqnarray*}
+\end{small}
+
+\noindent Damit ergibt sich f"ur die Koeffizienten der Taylorentwicklung:
+
+\begin{small}
+\begin{eqnarray*}
+E\big\vert_{A=0}&=&\frac{1}{2}\;\left(-\sigma^2\ln\!\left(2\pi\sigma^2\right)+\frac{r^2}{3}+\eta\right)\\
+&&\\
+\partial_A E\big\vert_{A=0}&=&0\\
+&&\\
+\partial_A^2 E\big\vert_{A=0}&=&\frac{1}{2}\left(1-\frac{r^2}{3\sigma^2}+\frac{r^2}{3\sigma^2}\;{\rm e}^{(-k^2\sigma^2)}+\eta k^2\right)\\
+&&\\
+\partial_A^3 E\big\vert_{A=0}&=&0\\
+&&\\
+\partial_A^4 E\big\vert_{A=0}&=&\frac{1}{40\sigma^6}\;\bigg(\,\left[ 3\;{\rm e}^{(-4k^2\sigma^2)}-12\;{\rm e}^{(-3k^2\sigma^2)}+18\;{\rm e}^{(-2k^2\sigma^2)}-12\;{\rm e}^{(-k^2\sigma^2)}+3 \right] r^4\\
+&&\qquad\;\;\,-\left[ 10\;{\rm e}^{(-4k^2\sigma^2)}-20\;{\rm e}^{(-3k^2\sigma^2)}+20\;{\rm e}^{(-k^2\sigma^2)}-10 \right] \sigma^2 r^2\\
+&&\qquad\;\;\,+\left[ 15\;{\rm e}^{(-4k^2\sigma^2)}-15 \right] \sigma^4 \bigg)
+\end{eqnarray*}
+\end{small}

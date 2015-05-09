@@ -1,0 +1,10 @@
+vor dem Drucken
+
+in Diplom.bbl:
+  - \thispagestyle{plain} einfuegen
+  - "Master's Thesis" durch "Diplomarbeit" ersetzen
+
+in Diplom.toc:
+  - \thispagestyle{plain} einfuegen
+
+bei insgesamt 46 Seiten sind die Farbseiten: (3), 12, 16, (25), 32, 33
