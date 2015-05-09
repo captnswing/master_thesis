@@ -6,39 +6,39 @@ In allen Simulationen zum Szenarium wurde die Dynamik~\eqref{endyn}
 ausgehend vom Anfangszustand $\mathbf{R}_0(\mathbf{x}) = (x,\, y,\, 0,\,
 0,\, 0) $ auf einem diskreten Gitter aus $40\times 40$ bzw. $64\times 64$
 Neuronen mit periodischen Randbedingungen integriert.  Die Varianzen
-$\left<S_i^2\right>$ der Reizverteilungen wurden dabei so gew"ahlt, da"s
-die enstehenden Muster vorgegebene Wellenl"angen aufweisen
+$\left<S_i^2\right>$ der Reizverteilungen wurden dabei so gewählt, daß
+die enstehenden Muster vorgegebene Wellenlängen aufweisen
 (vgl. Abschn.~\ref{numerg}). Dazu wurde die Gleichung
 
 \begin{equation*}
 \Lambda_i = \frac{2 \pi}{\sqrt{\ln\left(\left<S_i^2\right>/\eta\right)}}\;\sigma_i
 \end{equation*}
 
-\noindent numerisch invertiert.  Die G"ultigkeit dieser Gleichung
-erfordert, da"s $\sigma$ w"ahrend der Simulation monoton f"allt und zu
-Beginn gr"o"ser als das gr"o"ste kritische~$\sigma^\ast$ ist.  Der
+\noindent numerisch invertiert.  Die Gültigkeit dieser Gleichung
+erfordert, daß $\sigma$ während der Simulation monoton fällt und zu
+Beginn größer als das größte kritische~$\sigma^\ast$ ist.  Der
 Zeitverlauf von $\sigma(t)$ wurde in der Regel als linearer Abfall von den
 Werten $\sigma_{\mbox{\tiny Start}}=1.1*\sigma_i^\ast$ und
 $\sigma_{\mbox{\tiny Ende}}=0.9*\sigma_j^\ast$, mit
 $\sigma_i>\sigma_j$ angesetzt (vgl. Abb.~\ref{zeitentwicklung}).
 
 Die numerische Integration der Dynamik~\eqref{endyn} erfolgte dann in einem
-expliziten Einschritt--Verfahren. F"ur den Integralterm der Dynamik wurde
+expliziten Einschritt--Verfahren. Für den Integralterm der Dynamik wurde
 ein Adams--Bashford Schritt verwendet, der diffusionsartige Anteil der
-Dynamik anschlie"send in Fourierdarstellung exakt integriert.  Dieses
-Verfahren gew"ahrleistet die numerische Stabilit"at des linearen Terms.
-Der Integralterm wurde als Mittelwert "uber eine Menge von
-Pseudo--Zufallsstimuli gen"ahert. Die Anzahl der Stimuli wurde dabei so
-gew"ahlt, da"s in jedes Volumenelement der linearen Ausdehnung $2\sigma$
+Dynamik anschließend in Fourierdarstellung exakt integriert.  Dieses
+Verfahren gewährleistet die numerische Stabilität des linearen Terms.
+Der Integralterm wurde als Mittelwert über eine Menge von
+Pseudo--Zufallsstimuli genähert. Die Anzahl der Stimuli wurde dabei so
+gewählt, daß in jedes Volumenelement der linearen Ausdehnung $2\sigma$
 mindestens 50 Reize fallen. Typischerweise erforderte dies ca.~20000
 Stimuli pro Integrationsschritt.
 
 Die Wahl des Integrationszeitschrittes $dt$ orientierte sich unter
 Zuhilfenahme der Analytik an drei Kriterien: $dt$ sollte klein auf der
-Zeitskala der linearen Instabilit"at, und nicht zu gro"s f"ur den
-Integralterm sein (dieser zeigt eine numerische Instabilit"at bei gro"sen
-$dt$). Au"serdem sollte $dt$ klein sein gegen"uber der Zerfallszeit des
-Musters unter der Einwirkung des Laplace--Schritts.  Diese Randbedingungen
+Zeitskala der linearen Instabilität, und nicht zu groß für den
+Integralterm sein (dieser zeigt eine numerische Instabilität bei großen
+$dt$). Außerdem sollte $dt$ klein sein gegenüber der Zerfallszeit des
+Musters unter der Einwirkung des Laplace--Schritts. Diese Randbedingungen
 der Wahl von $dt$ wurden durch
 
 \begin{equation*}
@@ -46,9 +46,9 @@ dt = \text{MIN}\left(\frac{\tau_{\mbox{\tiny
 Inst}}}{5},\frac{\tau_{\scriptscriptstyle \Delta}}{20}\right)
 \end{equation*}
 
-\noindent erf"ullt, wobei $\tau_{\mbox{\tiny
+\noindent erfüllt, wobei $\tau_{\mbox{\tiny
 Inst}}=\frac{1}{\lambda(k_{\text{max}})}$ und $\tau_{\scriptscriptstyle
 \Delta}=\eta*k_{\text{max}}^2$.  Die Zeitentwicklung einer durch die
-Instabilit"at entstehenden Struktur wurde in einem Zeitraum von bis zu
+Instabilität entstehenden Struktur wurde in einem Zeitraum von bis zu
 $200\tau$ verfolgt. Eine typische Simulation nahm auf modernsten
 Workstations mehrere Wochen in Anspruch.
