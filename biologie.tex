@@ -550,10 +550,10 @@ o(\mathbf{x})\vert}\right)
 \end{equation*}
 
 Zur Berechnung des räumlichen Gradienten $\pmb\nabla =
-{\partial_1\choose\partial_2}$ auf dem Gitter wurde die diskrete
+{\binom{\partial_1}{\partial_2}}$ auf dem Gitter wurde die diskrete
 Approximation
 \begin{equation*}
-(\pmb\nabla\theta)_{ij}\approx\frac{1}{2\Delta}{{\theta_{i+1,j}\,-\,\theta_{i-1,j}}\choose{\theta_{i,j+1}\,-\,\theta_{i,j-1}}}
+(\pmb\nabla\theta)_{ij}\approx\frac{1}{2\Delta}{\binom{\theta_{i+1,j}\,-\,\theta_{i-1,j}}{\theta_{i,j+1}\,-\,\theta_{i,j-1}}}
 \end{equation*}
 verwendet (analog für $\pmb\nabla o$). Das Histogramm über die
 resultierende Verteilung der Schnittwinkel auf den
