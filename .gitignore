@@ -2,3 +2,6 @@
 *.log
 *.blg
 *.gz
+*.fdb_latexmk
+*.fls
+*-eps-converted-to.pdf
