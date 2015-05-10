@@ -128,30 +128,6 @@ dieser Karten erklären kann, wird in den folgenden Abschnitten untersucht.
 \subsection{Dynamische Umordnung der Okulardominanz}
 \label{odord}
 
-\begin{figure}[t]
-\begin{center}
-\epsfig{file=pics/od_corr.eps,width=11.9cm}
-\end{center}
-\caption{Die Bilder zeigen typische Auschnitte des OD--Musters aus V1 eines
-Affen \protect\citeaffixed{grinvald:1991}{6.4mm$\times$4.3mm, optisches
-Ableiten,} und aus A17 einer normalsichtigen und strabismischen Katze
-\protect\citeaffixed{loewel:1987}{jeweils 5mm$\times$3mm, [$^3$H]--Prolin
-Markierung,}. Neben jedem Bild ist die dazugehörige Autokorrelation
-$C(\mathbf{r})\vert_{\mathbf{r}={\binom{x}{0}}}$ gezeigt.}
-\label{odcorr}
-\end{figure}
-
-\begin{figure}[t]
-\begin{center}
-\epsfig{file=pics/umordnung.eps,width=\textwidth}
-\end{center}
-\caption{Simulation der Okulardominanz mit dem elastischen Netz. Links:
-typische Entwicklung der Amplitude der instabilen Lösung. Rechts:
-Autokorrelation eines typischen OD--Musters kurz und lange nach der
-Instabilität.}
-\label{umordnung}
-\end{figure}
-
 Das Muster der Okulardominanz im Affen zeigt einen hohen Grad räumlicher
 Kohärenz (vgl. Abschn.~\ref{unterschiede}): Die OD--Domänen bilden ein
 System paralleler Streifen, die selten verzweigen und hauptsächlich
@@ -181,6 +157,19 @@ sich weder der Grad der Monokularität der Neurone noch die Reichweite
 ihrer lateralen Verbindungen zur Erklärung der unterschiedlichen
 Anisotropie der OD--Muster in Katzen und Affen heranziehen.}.
 \setcounter{footnote}{1}
+
+\begin{figure}[h!]
+\begin{center}
+\epsfig{file=pics/od_corr.eps,width=11.9cm}
+\end{center}
+\caption{Die Bilder zeigen typische Auschnitte des OD--Musters aus V1 eines
+Affen \protect\citeaffixed{grinvald:1991}{6.4mm$\times$4.3mm, optisches
+Ableiten,} und aus A17 einer normalsichtigen und strabismischen Katze
+\protect\citeaffixed{loewel:1987}{jeweils 5mm$\times$3mm, [$^3$H]--Prolin
+Markierung,}. Neben jedem Bild ist die dazugehörige Autokorrelation
+$C(\mathbf{r})\vert_{\mathbf{r}={\binom{x}{0}}}$ gezeigt.}
+\label{odcorr}
+\end{figure}
 
 Die in Simulationen aufgrund der Isotropie der Dynamik
 hervorgebrachten Strukturen sind notwendigerweise statistisch isotrop
@@ -212,6 +201,18 @@ erhalten wurde.  In Simulationen mit kontinuierlich schrumpfenden
 $\sigma(t)$ entsteht dann das Muster der Orientierungspräferenz vor dem
 Muster der Okulardominanz (siehe Abb.~\ref{opod}).
 
+\begin{figure}[h!]
+\begin{center}
+\epsfig{file=pics/umordnung.eps,width=\textwidth}
+\end{center}
+\caption{Simulation der Okulardominanz mit dem elastischen Netz. Links:
+typische Entwicklung der Amplitude der instabilen Lösung. Rechts:
+Autokorrelation eines typischen OD--Musters kurz und lange nach der
+Instabilität.}
+\label{umordnung}
+\end{figure}
+
+
 \begin{figure}[p]
 \begin{center}
 \begin{sideways}
@@ -227,9 +228,7 @@ Randbedingungen, $\eta_{\text{rel}}=0.0025$,
 $\sigma^\ast_{\text{OD}}=0.0837$, $\sigma^\ast_{\text{OP}}=0.1189$
 $\Longrightarrow$ $\Lambda_{\text{OD}}/\Lambda_{\text{OP}}=4/5$).}
 \label{opod}
-\end{figure}
 
-\begin{figure}[p]
 \begin{center}
 \begin{sideways}
 \epsfig{file=pics/odop_rot.eps,height=\textwidth}
@@ -301,9 +300,7 @@ Weiterentwicklung der Karte \emph{ohne} das Muster der
 Orientierungspräferenz (beide Reihen: $40\times 40$ Neurone,
 $\sigma(t)=\sigma^\ast_{\text{OD}}*0.9$, $\eta_{\text{rel}}=0.001$).}
 \label{oddev}
-\end{figure}
 
-\begin{figure}[p]
 \begin{center}
 \begin{sideways}
 \epsfig{file=pics/angledev.eps,width=9cm}
