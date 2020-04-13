@@ -1,4 +1,7 @@
-Install MacTeX with homebrew
+# Install MacTeX with homebrew
 
-    brew install caskroom/cask/brew-cask
     brew cask install mactex
+
+# See also
+
+https://news.ycombinator.com/item?id=22854332
