@@ -1,27 +1,54 @@
-\select@language {german}
-\contentsline {section}{\numberline {1}Einleitung}{2}
-\contentsline {subsection}{\numberline {1.1}Physik im Hirn?}{2}
-\contentsline {subsection}{\numberline {1.2}\IeC {\"U}berblick}{3}
-\contentsline {section}{\numberline {2}Biologische Grundlagen}{5}
-\contentsline {subsection}{\numberline {2.1}Skizze des visuellen Systems von S\IeC {\"a}ugern}{5}
-\contentsline {subsubsection}{\numberline {2.1.1}Die Sehbahn}{5}
-\contentsline {subsubsection}{\numberline {2.1.2}Rezeptive Felder}{6}
-\contentsline {subsubsection}{\numberline {2.1.3}Kolumn\IeC {\"a}re Organisation der prim\IeC {\"a}ren Sehrinde}{8}
-\contentsline {subsection}{\numberline {2.2}Neuronale Karten}{8}
-\contentsline {subsubsection}{\numberline {2.2.1}Okulardominanzkarten}{10}
-\contentsline {subsubsection}{\numberline {2.2.2}Orientierungskarten}{11}
-\contentsline {subsection}{\numberline {2.3}Speziesunterschiede visueller Reizrepr\IeC {\"a}sentationen}{13}
-\contentsline {subsection}{\numberline {2.4}Geometrische Beziehung zwischen Iso--Orientierungslinien$\ldots $}{15}
-\contentsline {subsection}{\numberline {2.5}Entstehung neuronaler Karten durch Selbstorganisation}{17}
-\contentsline {section}{\numberline {3}Das elastische Netz}{20}
-\contentsline {subsection}{\numberline {3.1}Stabilit\IeC {\"a}tsanalyse}{22}
-\contentsline {subsection}{\numberline {3.2}Phasen\IeC {\"u}bergang}{24}
-\contentsline {subsection}{\numberline {3.3}Biologische Interpretation}{25}
-\contentsline {section}{\numberline {4}\unhbox \voidb@x \hbox {Sequentielle}~\unhbox \voidb@x \hbox {Bifurkation}~\unhbox \voidb@x \hbox {visueller}~\unhbox \voidb@x \hbox {Reizrepr\IeC {\"a}sentationen}}{27}
-\contentsline {subsection}{\numberline {4.1}Vorbetrachtungen}{27}
-\contentsline {subsection}{\numberline {4.2}Das sequentielle Bifurkationsszenarium}{28}
-\contentsline {subsection}{\numberline {4.3}Dynamische Umordnung der Okulardominanz}{29}
-\contentsline {subsection}{\numberline {4.4}Ergebnisse numerischer Simulationen zum Szenarium}{30}
-\contentsline {section}{\numberline {5}Zusammenfassung und Diskussion}{36}
-\contentsline {section}{\numberline {A}Entwicklung der Energie des elastischen Netzes}{39}
-\contentsline {section}{\numberline {B}Numerische Integration der Dynamik}{43}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {german}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Physik im Hirn?}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Überblick}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Biologische Grundlagen}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Skizze des visuellen Systems von Säugern}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Die Sehbahn}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}Rezeptive Felder}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.3}Kolumnäre Organisation der primären Sehrinde}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Neuronale Karten}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Okulardominanzkarten}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Orientierungskarten}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Speziesunterschiede visueller Reizrepräsentationen}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Geometrische Beziehung zwischen Iso--Orientierungslinien$\ldots $}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Entstehung neuronaler Karten durch Selbstorganisation}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Das elastische Netz}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Stabilitätsanalyse}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Phasenübergang}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Biologische Interpretation}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}\mbox {Sequentielle}~\mbox {Bifurkation}~\mbox {visueller}~\mbox {Reizrepräsentationen}}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Vorbetrachtungen}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Das sequentielle Bifurkationsszenarium}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Dynamische Umordnung der Okulardominanz}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Ergebnisse numerischer Simulationen zum Szenarium}{30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Zusammenfassung und Diskussion}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Entwicklung der Energie des elastischen Netzes}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Numerische Integration der Dynamik}{43}%
