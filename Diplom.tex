@@ -8,17 +8,19 @@
 \usepackage{exscale}                        % scale math-symbols correctly
 \usepackage[german]{babel}                  % extensions for german
 \usepackage[utf8]{inputenc}                 % enable UTF-8
-\usepackage[dcucite,abbr,round]{harvard}    % citationstyle
+\usepackage[T1]{fontenc}
+\usepackage[babel=true]{csquotes}
 \usepackage{epsfig,epic,eepic}              % Xfig- and EPS-figures
 \usepackage{fancyhdr}                       % some fancy headings
+\usepackage[backend=biber,style=authoryear,bibencoding=utf8]{biblatex}
+\addbibresource{bibtex/diplom.bib}
+\addbibresource{bibtex/chaos.bib}
+\addbibresource{bibtex/neuro.bib}
 
 % some hacks before we start
 \pagestyle{fancyplain}
 \input{hacks.tex}
-%\psdraft
 \sloppy
-\renewcommand{\harvardand}{und}
-\harvardyearparenthesis{round}
 
 % reset counter in every Section
 \numberwithin{equation}{section}
@@ -27,7 +29,6 @@
 
 % main()
 \begin{document}
-
 \include{titel}
 \include{einleitung}
 \include{biologie}
@@ -38,7 +39,5 @@
 \include{anhang1}
 \include{anhang2}
 \clearpage
-\bibliographystyle{acm}
-\bibliography{bibtex/diplom,bibtex/neuro}
-
+\printbibliography
 \end{document}
