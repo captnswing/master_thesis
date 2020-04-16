@@ -5,18 +5,18 @@
 In allen Simulationen zum Szenarium wurde die Dynamik~\eqref{endyn}
 ausgehend vom Anfangszustand $\mathbf{R}_0(\mathbf{x}) = (x,\, y,\, 0,\,
 0,\, 0) $ auf einem diskreten Gitter aus $40\times 40$ bzw. $64\times 64$
-Neuronen mit periodischen Randbedingungen integriert.  Die Varianzen
+Neuronen mit periodischen Randbedingungen integriert. Die Varianzen
 $\left<S_i^2\right>$ der Reizverteilungen wurden dabei so gewählt, daß
 die enstehenden Muster vorgegebene Wellenlängen aufweisen
 (vgl. Abschn.~\ref{numerg}). Dazu wurde die Gleichung
 
 \begin{equation*}
-\Lambda_i = \frac{2 \pi}{\sqrt{\ln\left(\left<S_i^2\right>/\eta\right)}}\;\sigma_i
+    \Lambda_i = \frac{2 \pi}{\sqrt{\ln\left(\left<S_i^2\right>/\eta\right)}}\;\sigma_i
 \end{equation*}
 
-\noindent numerisch invertiert.  Die Gültigkeit dieser Gleichung
+\noindent numerisch invertiert. Die Gültigkeit dieser Gleichung
 erfordert, daß $\sigma$ während der Simulation monoton fällt und zu
-Beginn größer als das größte kritische~$\sigma^\ast$ ist.  Der
+Beginn größer als das größte kritische~$\sigma^\ast$ ist. Der
 Zeitverlauf von $\sigma(t)$ wurde in der Regel als linearer Abfall von den
 Werten $\sigma_{\mbox{\tiny Start}}=1.1*\sigma_i^\ast$ und
 $\sigma_{\mbox{\tiny Ende}}=0.9*\sigma_j^\ast$, mit
@@ -25,7 +25,7 @@ $\sigma_i>\sigma_j$ angesetzt (vgl. Abb.~\ref{zeitentwicklung}).
 Die numerische Integration der Dynamik~\eqref{endyn} erfolgte dann in einem
 expliziten Einschritt--Verfahren. Für den Integralterm der Dynamik wurde
 ein Adams--Bashford Schritt verwendet, der diffusionsartige Anteil der
-Dynamik anschließend in Fourierdarstellung exakt integriert.  Dieses
+Dynamik anschließend in Fourierdarstellung exakt integriert. Dieses
 Verfahren gewährleistet die numerische Stabilität des linearen Terms.
 Der Integralterm wurde als Mittelwert über eine Menge von
 Pseudo--Zufallsstimuli genähert. Die Anzahl der Stimuli wurde dabei so
@@ -42,13 +42,13 @@ Musters unter der Einwirkung des Laplace--Schritts. Diese Randbedingungen
 der Wahl von $dt$ wurden durch
 
 \begin{equation*}
-dt = \text{MIN}\left(\frac{\tau_{\mbox{\tiny
-Inst}}}{5},\frac{\tau_{\scriptscriptstyle \Delta}}{20}\right)
+    dt = \text{MIN}\left(\frac{\tau_{\mbox{\tiny
+        Inst}}}{5},\frac{\tau_{\scriptscriptstyle \Delta}}{20}\right)
 \end{equation*}
 
 \noindent erfüllt, wobei $\tau_{\mbox{\tiny
-Inst}}=\frac{1}{\lambda(k_{\text{max}})}$ und $\tau_{\scriptscriptstyle
-\Delta}=\eta*k_{\text{max}}^2$.  Die Zeitentwicklung einer durch die
+    Inst}}=\frac{1}{\lambda(k_{\text{max}})}$ und $\tau_{\scriptscriptstyle
+    \Delta}=\eta*k_{\text{max}}^2$. Die Zeitentwicklung einer durch die
 Instabilität entstehenden Struktur wurde in einem Zeitraum von bis zu
 $200\tau$ verfolgt. Eine typische Simulation nahm auf modernsten
 Workstations mehrere Wochen in Anspruch.
