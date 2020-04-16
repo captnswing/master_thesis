@@ -19,40 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{movshon:1981}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=aa133427cd88d00cdb9228d2df5557df}{%
-           family={A.\bibnamedelimi Movshon},
-           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=42833eea0337e14914551c760a170bad}{%
-           family={Sluyters},
-           familyi={S\bibinitperiod},
-           given={R.\bibnamedelimi C.\bibnamedelimi Van},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{47be39974bfa80ab6a3c8515b825d1a8}
-      \strng{fullhash}{47be39974bfa80ab6a3c8515b825d1a8}
-      \strng{bibnamehash}{47be39974bfa80ab6a3c8515b825d1a8}
-      \strng{authorbibnamehash}{47be39974bfa80ab6a3c8515b825d1a8}
-      \strng{authornamehash}{47be39974bfa80ab6a3c8515b825d1a8}
-      \strng{authorfullhash}{47be39974bfa80ab6a3c8515b825d1a8}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ann.~Rev. Psychol.}
-      \field{title}{Visual neural development}
-      \field{volume}{32}
-      \field{year}{1981}
-      \field{pages}{477\bibrangedash 522}
-      \range{pages}{46}
-    \endentry
     \entry{andersonetal:1988}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c323a28ece7a12cb419aa6e1112a3c50}{%
@@ -67,12 +33,12 @@
            given={J.},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=42833eea0337e14914551c760a170bad}{%
+        {{un=1,uniquepart=given,hash=42833eea0337e14914551c760a170bad}{%
            family={Sluyters},
            familyi={S\bibinitperiod},
            given={R.\bibnamedelimi C.\bibnamedelimi Van},
            giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{95d1b108eb88368af10f4f0de3153943}
       \strng{fullhash}{95d1b108eb88368af10f4f0de3153943}
@@ -86,43 +52,12 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Neurosci.}
+      \field{journaltitle}{J. Neurosci.}
       \field{title}{The overall pattern of ocular dominance bands in cat visual cortex}
       \field{volume}{8}
       \field{year}{1988}
       \field{pages}{2183\bibrangedash 2200}
       \range{pages}{18}
-    \endentry
-    \entry{katz:1994}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=0ed1e115a76411f54836e10e225e83c3}{%
-           family={B.\bibnamedelimi Dalva},
-           familyi={B\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8efa531521013ecddfe7e67e57c14287}{%
-           family={Lawrence\bibnamedelima C.\bibnamedelimi Katz},
-           familyi={L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \strng{namehash}{f15430262f97fcf7a82d774f161aad4d}
-      \strng{fullhash}{f15430262f97fcf7a82d774f161aad4d}
-      \strng{bibnamehash}{f15430262f97fcf7a82d774f161aad4d}
-      \strng{authorbibnamehash}{f15430262f97fcf7a82d774f161aad4d}
-      \strng{authornamehash}{f15430262f97fcf7a82d774f161aad4d}
-      \strng{authorfullhash}{f15430262f97fcf7a82d774f161aad4d}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Science}
-      \field{title}{Rearrangements of Synaptic Connections in Visual Cortex Revealed by Laser Photostimulation}
-      \field{volume}{265}
-      \field{year}{1994}
-      \field{pages}{255\bibrangedash 258}
-      \range{pages}{4}
     \endentry
     \entry{bartfield:1992}{article}{}
       \name{author}{2}{}{%
@@ -186,30 +121,70 @@
       \field{pages}{36\bibrangedash 50}
       \range{pages}{15}
     \endentry
+    \entry{blakemore:1978}{article}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=c8013e8a25aef2edc43b1b799b3da3d8}{%
+           family={Blakemore},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=20c179de7a2b71b3a771cf011ded03f4}{%
+           family={Garey},
+           familyi={G\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1144897847c45b1b52204bfa3ef4a401}{%
+           family={Vital-Durand},
+           familyi={V\bibinithyphendelim D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7df0cf7cafc0293e65090eb469f8a4c}
+      \strng{fullhash}{e7df0cf7cafc0293e65090eb469f8a4c}
+      \strng{bibnamehash}{e7df0cf7cafc0293e65090eb469f8a4c}
+      \strng{authorbibnamehash}{e7df0cf7cafc0293e65090eb469f8a4c}
+      \strng{authornamehash}{e7df0cf7cafc0293e65090eb469f8a4c}
+      \strng{authorfullhash}{e7df0cf7cafc0293e65090eb469f8a4c}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Physiol. (London)}
+      \field{title}{The physiological effects of monocular deprivation and their reversal in the monkey's visual cortex}
+      \field{volume}{283}
+      \field{year}{1978}
+      \field{pages}{223\bibrangedash 262}
+      \range{pages}{40}
+    \endentry
     \entry{blakemore:1970}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=7bfba8dc60a5d55375b55969b6d8e83d}{%
+        {{un=2,uniquepart=given,hash=7bfba8dc60a5d55375b55969b6d8e83d}{%
            family={Blakemore},
            familyi={B\bibinitperiod},
            given={Colin},
            giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=09d2ca5a8c77957563389e78b260dbbb}{%
-           family={F.\bibnamedelimi Cooper},
-           familyi={F\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=ddb3e25a8150c7ca1c672d6a43a80d6d}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {Cold Spring Harbor Laboratory Press}%
       }
-      \strng{namehash}{7b6264b6a4bb5aad15957a03167c33c4}
-      \strng{fullhash}{7b6264b6a4bb5aad15957a03167c33c4}
-      \strng{bibnamehash}{7b6264b6a4bb5aad15957a03167c33c4}
-      \strng{authorbibnamehash}{7b6264b6a4bb5aad15957a03167c33c4}
-      \strng{authornamehash}{7b6264b6a4bb5aad15957a03167c33c4}
-      \strng{authorfullhash}{7b6264b6a4bb5aad15957a03167c33c4}
+      \strng{namehash}{2b6dca6684f2ba9f8359091801a6bf02}
+      \strng{fullhash}{2b6dca6684f2ba9f8359091801a6bf02}
+      \strng{bibnamehash}{2b6dca6684f2ba9f8359091801a6bf02}
+      \strng{authorbibnamehash}{2b6dca6684f2ba9f8359091801a6bf02}
+      \strng{authornamehash}{2b6dca6684f2ba9f8359091801a6bf02}
+      \strng{authorfullhash}{2b6dca6684f2ba9f8359091801a6bf02}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -245,13 +220,91 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Neurosci.}
+      \field{journaltitle}{J. Neurosci.}
       \field{number}{8}
       \field{title}{Differential Imaging of Ocular Dominance and Orientation Selectivity in Monkey Striate Cortex}
       \field{volume}{12}
       \field{year}{1992}
       \field{pages}{3117\bibrangedash 3138}
       \range{pages}{22}
+    \endentry
+    \entry{blasdel:1995}{article}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=28b24a2a19889b9831396a55f841225d}{%
+           family={Blasdel},
+           familyi={B\bibinitperiod},
+           given={Gary\bibnamedelima G.},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=bc24f398d8c32ab1cff5ad6b60aaceb4}{%
+           family={Obermayer},
+           familyi={O\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=936dbad7cf47fcdce3f1a36d55778cfa}{%
+           family={Kiorpes},
+           familyi={K\bibinitperiod},
+           given={Lynne},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Society for Neuroscience}%
+      }
+      \strng{namehash}{818b143fb5148f466ccc4e52259aafde}
+      \strng{fullhash}{818b143fb5148f466ccc4e52259aafde}
+      \strng{bibnamehash}{818b143fb5148f466ccc4e52259aafde}
+      \strng{authorbibnamehash}{818b143fb5148f466ccc4e52259aafde}
+      \strng{authornamehash}{818b143fb5148f466ccc4e52259aafde}
+      \strng{authorfullhash}{818b143fb5148f466ccc4e52259aafde}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Soc. Neurosci. Abstracts}
+      \field{journaltitle}{Visual Neuroscience}
+      \field{title}{Organization of ocular dominance and orientation columns in the striate cortex of neonatal macaque monkeys}
+      \field{volume}{12}
+      \field{year}{1995}
+      \field{pages}{589\bibrangedash 603}
+      \range{pages}{15}
+    \endentry
+    \entry{blasdel:1986}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=28b24a2a19889b9831396a55f841225d}{%
+           family={Blasdel},
+           familyi={B\bibinitperiod},
+           given={Gary\bibnamedelima G.},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=746016ce7ecae1d0ee886fe11bb89b8e}{%
+           family={Salama},
+           familyi={S\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fbd75adbecc0515099798e8dc3d2415d}
+      \strng{fullhash}{fbd75adbecc0515099798e8dc3d2415d}
+      \strng{bibnamehash}{fbd75adbecc0515099798e8dc3d2415d}
+      \strng{authorbibnamehash}{fbd75adbecc0515099798e8dc3d2415d}
+      \strng{authornamehash}{fbd75adbecc0515099798e8dc3d2415d}
+      \strng{authorfullhash}{fbd75adbecc0515099798e8dc3d2415d}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Voltage-sensitive dyes reveal a modular organization in monkey striate cortex}
+      \field{volume}{321}
+      \field{year}{1986}
+      \field{pages}{579\bibrangedash 585}
+      \range{pages}{7}
     \endentry
     \entry{blasdel:1992b}{article}{}
       \name{author}{1}{}{%
@@ -274,7 +327,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Neurosci.}
+      \field{journaltitle}{J. Neurosci.}
       \field{number}{8}
       \field{title}{Orientation Selectivity, Preference, and Continuity in Monkey Striate Cortex}
       \field{volume}{12}
@@ -379,40 +432,6 @@
       \field{pages}{434\bibrangedash 443}
       \range{pages}{10}
     \endentry
-    \entry{blakemore:1978}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=30cfc1bdcc386da9c09a96ef66dabe3e}{%
-           family={C.\bibnamedelimi Blakemore},
-           familyi={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=c490e0432ed33e615863691a2eb7119b}{%
-           family={J.\bibnamedelimi Garey},
-           familyi={J\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e702bb9f1b69b273d0614fb32b2262bd}{%
-           family={F.\bibnamedelimi Vital-Durand},
-           familyi={F\bibinitperiod\bibinitdelim V\bibinithyphendelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{f367c0ff61d5e5b2bc7c5c3a01d515f2}
-      \strng{fullhash}{f367c0ff61d5e5b2bc7c5c3a01d515f2}
-      \strng{bibnamehash}{f367c0ff61d5e5b2bc7c5c3a01d515f2}
-      \strng{authorbibnamehash}{f367c0ff61d5e5b2bc7c5c3a01d515f2}
-      \strng{authornamehash}{f367c0ff61d5e5b2bc7c5c3a01d515f2}
-      \strng{authorfullhash}{f367c0ff61d5e5b2bc7c5c3a01d515f2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Physiol. (London)}
-      \field{title}{The physiological effects of monocular deprivation and their reversal in the monkey's visual cortex}
-      \field{volume}{283}
-      \field{year}{1978}
-      \field{pages}{223\bibrangedash 262}
-      \range{pages}{40}
-    \endentry
     \entry{churchland:1992}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2b024bc33bcc5a17d545d92917929614}{%
@@ -449,33 +468,39 @@
       \field{title}{The Computational Brain}
       \field{year}{1992}
     \endentry
-    \entry{ferster:1978}{article}{}
+    \entry{katz:1994}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=662aae873f9b062af69d62d0392792c6}{%
-           family={D.\bibnamedelimi Ferster},
-           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=d0f91dc3486a4d44c9c6a18e47dac1b3}{%
-           family={S.\bibnamedelimi LeVay},
-           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=43bc8ff0c6dd84db584a733de688a58d}{%
+           family={Dalva},
+           familyi={D\bibinitperiod},
+           given={Matthew\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b947a2551977126ff916aea1383500e1}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={Lawrence\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{9af447b793b531100f2f3a6a44bc0ef6}
-      \strng{fullhash}{9af447b793b531100f2f3a6a44bc0ef6}
-      \strng{bibnamehash}{9af447b793b531100f2f3a6a44bc0ef6}
-      \strng{authorbibnamehash}{9af447b793b531100f2f3a6a44bc0ef6}
-      \strng{authornamehash}{9af447b793b531100f2f3a6a44bc0ef6}
-      \strng{authorfullhash}{9af447b793b531100f2f3a6a44bc0ef6}
+      \strng{namehash}{095342e08ccc96e7ef3b8b7e14aa061a}
+      \strng{fullhash}{095342e08ccc96e7ef3b8b7e14aa061a}
+      \strng{bibnamehash}{095342e08ccc96e7ef3b8b7e14aa061a}
+      \strng{authorbibnamehash}{095342e08ccc96e7ef3b8b7e14aa061a}
+      \strng{authornamehash}{095342e08ccc96e7ef3b8b7e14aa061a}
+      \strng{authorfullhash}{095342e08ccc96e7ef3b8b7e14aa061a}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Comp. Neurol.}
-      \field{title}{The axonal arborizations of lateral geniculate neurons in the striate cortex of the cat}
-      \field{volume}{182}
-      \field{year}{1978}
-      \field{pages}{923\bibrangedash 944}
-      \range{pages}{22}
+      \field{journaltitle}{Science}
+      \field{title}{Rearrangements of Synaptic Connections in Visual Cortex Revealed by Laser Photostimulation}
+      \field{volume}{265}
+      \field{year}{1994}
+      \field{pages}{255\bibrangedash 258}
+      \range{pages}{4}
     \endentry
     \entry{miller:1994}{article}{}
       \name{author}{1}{}{%
@@ -498,9 +523,9 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Neurosci.}
+      \field{journaltitle}{J. Neurosci.}
       \field{number}{1}
-      \field{title}{A Model for the Development of Simple Cell Receptive Fields and the Ordered Arrangement of Orientation Columns through Activity-dependent Competition between {ON}- and {OFF}-Center Inputs}
+      \field{title}{A Model for the Development of Simple Cell Receptive Fields and the Ordered Arrangement of Orientation Columns through Activity-dependent Competition between {ON-} and {OFF-Center} Inputs}
       \field{volume}{14}
       \field{year}{1994}
       \field{pages}{409\bibrangedash 441}
@@ -622,12 +647,12 @@
            given={E.},
            giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=49b47530760ffc9c1956dd759f68ea4c}{%
+        {{un=2,uniquepart=given,hash=49b47530760ffc9c1956dd759f68ea4c}{%
            family={Obermayer},
            familyi={O\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=a649352ae0f9a737e2d23bb2ac31eb00}{%
            family={Schulten},
            familyi={S\bibinitperiod},
@@ -648,115 +673,79 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Neural Comp.}
-      \field{title}{Models of Orientation and Ocular Dominance Columns in the Visual Cortex: {A} Critical Comparison}
+      \field{title}{Models of Orientation and Ocular Dominance Columns in the Visual Cortex: A Critical Comparison}
       \field{volume}{7}
       \field{year}{1995}
       \field{pages}{425\bibrangedash 468}
       \range{pages}{44}
     \endentry
-    \entry{jones:1991}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=9c08e90940f22b86a1a3529be342e2ec}{%
-           family={G.\bibnamedelimi Jones},
-           familyi={G\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={David},
+    \entry{ferster:1978}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cd0a8532d6b0dc70d77f10a7f02fd0cb}{%
+           family={Ferster},
+           familyi={F\bibinitperiod},
+           given={D.},
            giveni={D\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=113f2403eb33d6b863973d024b6fbe96}{%
-           family={C.\bibnamedelimi van\bibnamedelima Sluyters},
-           familyi={C\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1c9838d440cc1f857d365b52ac6c8c18}{%
-           family={M.\bibnamedelimi Murphy},
-           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Kathryn},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
+        {{un=2,uniquepart=given,hash=1eed3edacc4c1ed5d50eba814cac2173}{%
+           family={LeVay},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=2}}%
       }
-      \strng{namehash}{e0fbfcb903464e641fae7da7b97a0d8d}
-      \strng{fullhash}{e0fbfcb903464e641fae7da7b97a0d8d}
-      \strng{bibnamehash}{e0fbfcb903464e641fae7da7b97a0d8d}
-      \strng{authorbibnamehash}{e0fbfcb903464e641fae7da7b97a0d8d}
-      \strng{authornamehash}{e0fbfcb903464e641fae7da7b97a0d8d}
-      \strng{authorfullhash}{e0fbfcb903464e641fae7da7b97a0d8d}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \strng{namehash}{8bbd4acff13fc64ba0a11065ff70e31b}
+      \strng{fullhash}{8bbd4acff13fc64ba0a11065ff70e31b}
+      \strng{bibnamehash}{8bbd4acff13fc64ba0a11065ff70e31b}
+      \strng{authorbibnamehash}{8bbd4acff13fc64ba0a11065ff70e31b}
+      \strng{authornamehash}{8bbd4acff13fc64ba0a11065ff70e31b}
+      \strng{authorfullhash}{8bbd4acff13fc64ba0a11065ff70e31b}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Neurosci.}
-      \field{number}{8}
-      \field{title}{A Computational Model for the Overall Pattern of Ocular Dominance}
-      \field{volume}{11}
-      \field{year}{1991}
-      \field{pages}{3794\bibrangedash 3808}
-      \range{pages}{15}
+      \field{journaltitle}{J. Comp. Neurol.}
+      \field{title}{The axonal arborizations of lateral geniculate neurons in the striate cortex of the cat}
+      \field{volume}{182}
+      \field{year}{1978}
+      \field{pages}{923\bibrangedash 944}
+      \range{pages}{22}
     \endentry
-    \entry{blasdel:1986}{article}{}
+    \entry{fregnac:1984}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=34d21a28fb9165250ded7e25d2c55c47}{%
-           family={Gary\bibnamedelima G.\bibnamedelimi Blasdel},
-           familyi={G\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=fce69650211d5776346904fa9cbf52ef}{%
-           family={Guy\bibnamedelima Salama},
-           familyi={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=7ee7fd4682946f8f0d057dd4493f18da}{%
+           family={Frégnac},
+           familyi={F\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f69029665aa3fcdd0f7d471ca146d5c0}{%
+           family={Imbert},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{d164227dc4e609d5b5f1127b652b6937}
-      \strng{fullhash}{d164227dc4e609d5b5f1127b652b6937}
-      \strng{bibnamehash}{d164227dc4e609d5b5f1127b652b6937}
-      \strng{authorbibnamehash}{d164227dc4e609d5b5f1127b652b6937}
-      \strng{authornamehash}{d164227dc4e609d5b5f1127b652b6937}
-      \strng{authorfullhash}{d164227dc4e609d5b5f1127b652b6937}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \strng{namehash}{9312545c09487eb80570f8c5517ca02c}
+      \strng{fullhash}{9312545c09487eb80570f8c5517ca02c}
+      \strng{bibnamehash}{9312545c09487eb80570f8c5517ca02c}
+      \strng{authorbibnamehash}{9312545c09487eb80570f8c5517ca02c}
+      \strng{authornamehash}{9312545c09487eb80570f8c5517ca02c}
+      \strng{authorfullhash}{9312545c09487eb80570f8c5517ca02c}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{title}{Voltage-sensitive dyes reveal a modular organization in monkey striate cortex}
-      \field{volume}{321}
-      \field{year}{1986}
-      \field{pages}{579\bibrangedash 585}
-      \range{pages}{7}
-    \endentry
-    \entry{blasdel:1995}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=34d21a28fb9165250ded7e25d2c55c47}{%
-           family={Gary\bibnamedelima G.\bibnamedelimi Blasdel},
-           familyi={G\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=ee813279f63d3aa0dfb7739284625b6d}{%
-           family={Klaus\bibnamedelima Obermayer},
-           familyi={K\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=6db56fef3a5b70c535a78295178490da}{%
-           family={Lynne\bibnamedelima Kiorpes},
-           familyi={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Society for Neuroscience}%
-      }
-      \strng{namehash}{0de792592c096f0b5cd9282c4e54571d}
-      \strng{fullhash}{0de792592c096f0b5cd9282c4e54571d}
-      \strng{bibnamehash}{0de792592c096f0b5cd9282c4e54571d}
-      \strng{authorbibnamehash}{0de792592c096f0b5cd9282c4e54571d}
-      \strng{authornamehash}{0de792592c096f0b5cd9282c4e54571d}
-      \strng{authorfullhash}{0de792592c096f0b5cd9282c4e54571d}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Soc. Neurosci. Abstracts}
-      \field{journaltitle}{Visual Neuroscience}
-      \field{title}{Organization of ocular dominance and orientation columns in the striate cortex of neonatal macaque monkeys}
-      \field{volume}{12}
-      \field{year}{1995}
-      \field{pages}{589\bibrangedash 603}
-      \range{pages}{15}
+      \field{journaltitle}{Physiol. Rev.}
+      \field{title}{Development of neuronal selectivity in primary visual cortex of cats}
+      \field{volume}{64}
+      \field{year}{1984}
+      \field{pages}{325\bibrangedash 434}
+      \range{pages}{110}
     \endentry
     \entry{goedecke:1996}{article}{}
       \name{author}{2}{}{%
@@ -865,7 +854,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Organisation of {Behaviour}: {A} {N}europsychological {T}heory}
+      \field{title}{Organisation of Behaviour: A Neuropsychological Theory}
       \field{year}{1949}
     \endentry
     \entry{hoffsuemmer95a}{inproceedings}{}
@@ -1009,7 +998,7 @@
         {Institut für Theoretische Physik, Johann-Wolfgang Goethe Universität}%
       }
       \list{location}{1}{%
-        {Frankfurt am {M}ain}%
+        {Frankfurt am Main}%
       }
       \strng{namehash}{56b580d0005d5f56694663974f9abc51}
       \strng{fullhash}{56b580d0005d5f56694663974f9abc51}
@@ -1023,7 +1012,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Instabilitäten neuronaler {K}arten in {S}elbstorganisationsmodellen mit {P}otentialdynamik}
+      \field{title}{Instabilitäten neuronaler Karten in Selbstorganisationsmodellen mit Potentialdynamik}
       \field{type}{mathesis}
       \field{year}{1994}
     \endentry
@@ -1063,12 +1052,12 @@
            given={D.\bibnamedelimi H.},
            giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
            givenun=2}}%
-        {{un=0,uniquepart=base,hash=56b1a28b981938e77754702e3a0a19a1}{%
+        {{un=2,uniquepart=given,hash=56b1a28b981938e77754702e3a0a19a1}{%
            family={Wiesel},
            familyi={W\bibinitperiod},
            given={T.\bibnamedelimi N.},
            giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
       \strng{fullhash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
@@ -1098,12 +1087,12 @@
            given={D.\bibnamedelimi H.},
            giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
            givenun=2}}%
-        {{un=0,uniquepart=base,hash=56b1a28b981938e77754702e3a0a19a1}{%
+        {{un=2,uniquepart=given,hash=56b1a28b981938e77754702e3a0a19a1}{%
            family={Wiesel},
            familyi={W\bibinitperiod},
            given={T.\bibnamedelimi N.},
            giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
       \strng{fullhash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
@@ -1155,39 +1144,49 @@
       \field{title}{Auge und Gehirn: Neurobiologie des Sehens}
       \field{year}{1989}
     \endentry
-    \entry{shatz:1978}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=ac8d32369b80d0274cb34aa2116999e4}{%
-           family={J.\bibnamedelimi Shatz},
-           familyi={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
+    \entry{jones:1991}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9364a48966eef9cb192f3aa943b66a7f}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4c5987753937883dd290ba7e83cad3b4}{%
-           family={P.\bibnamedelimi Stryker},
-           familyi={P\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
+        {{un=1,uniquepart=given,hash=9c3b8db408483acce888d4753ee72061}{%
+           family={Sluyters},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1,
+           prefix={van},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=f269f7fcdc41617ece4f1da4a2f4cfbd}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Kathryn\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{2032dd7b84a4aa7cd080e4ca4a2478f8}
-      \strng{fullhash}{2032dd7b84a4aa7cd080e4ca4a2478f8}
-      \strng{bibnamehash}{2032dd7b84a4aa7cd080e4ca4a2478f8}
-      \strng{authorbibnamehash}{2032dd7b84a4aa7cd080e4ca4a2478f8}
-      \strng{authornamehash}{2032dd7b84a4aa7cd080e4ca4a2478f8}
-      \strng{authorfullhash}{2032dd7b84a4aa7cd080e4ca4a2478f8}
+      \strng{namehash}{b85c071dc8e157d2f62ad2a90c396d79}
+      \strng{fullhash}{b85c071dc8e157d2f62ad2a90c396d79}
+      \strng{bibnamehash}{b85c071dc8e157d2f62ad2a90c396d79}
+      \strng{authorbibnamehash}{b85c071dc8e157d2f62ad2a90c396d79}
+      \strng{authornamehash}{b85c071dc8e157d2f62ad2a90c396d79}
+      \strng{authorfullhash}{b85c071dc8e157d2f62ad2a90c396d79}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Physiol. (London)}
-      \field{title}{Ocular dominance in layer {IV} of the cat's visual cortex and the effects of monocular deprivation}
-      \field{volume}{281}
-      \field{year}{1978}
-      \field{pages}{267\bibrangedash 283}
-      \range{pages}{17}
+      \field{journaltitle}{J. Neurosci.}
+      \field{number}{8}
+      \field{title}{A Computational Model for the Overall Pattern of Ocular Dominance}
+      \field{volume}{11}
+      \field{year}{1991}
+      \field{pages}{3794\bibrangedash 3808}
+      \range{pages}{15}
     \endentry
     \entry{kirkwood:1994}{article}{}
       \name{author}{2}{}{%
@@ -1197,19 +1196,19 @@
            given={Alfredo},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=a59b0e68b48c550ef9be399a1b3538a5}{%
-           family={F.\bibnamedelimi Bear},
-           familyi={F\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod},
+        {{un=0,uniquepart=base,hash=35509afc68cfdc5711f0cc71d6db333d}{%
+           family={Bear},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{d5088ad78e69a4f6a51616b5954ff534}
-      \strng{fullhash}{d5088ad78e69a4f6a51616b5954ff534}
-      \strng{bibnamehash}{d5088ad78e69a4f6a51616b5954ff534}
-      \strng{authorbibnamehash}{d5088ad78e69a4f6a51616b5954ff534}
-      \strng{authornamehash}{d5088ad78e69a4f6a51616b5954ff534}
-      \strng{authorfullhash}{d5088ad78e69a4f6a51616b5954ff534}
+      \strng{namehash}{95c3dca5ed0008fffb3094a8f9f9bd2b}
+      \strng{fullhash}{95c3dca5ed0008fffb3094a8f9f9bd2b}
+      \strng{bibnamehash}{95c3dca5ed0008fffb3094a8f9f9bd2b}
+      \strng{authorbibnamehash}{95c3dca5ed0008fffb3094a8f9f9bd2b}
+      \strng{authornamehash}{95c3dca5ed0008fffb3094a8f9f9bd2b}
+      \strng{authorfullhash}{95c3dca5ed0008fffb3094a8f9f9bd2b}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
@@ -1223,6 +1222,52 @@
       \field{year}{1994}
       \field{pages}{1634\bibrangedash 1645}
       \range{pages}{12}
+    \endentry
+    \entry{levayetal:1985}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=2,uniquepart=given,hash=1eed3edacc4c1ed5d50eba814cac2173}{%
+           family={LeVay},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=fb1a663c2de6b2960a9b2f333f6b5666}{%
+           family={Connolly},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e59c56e9c2a6bb6c00106de537530bc}{%
+           family={Houde},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4b28d042c19788c385ee3396a9b3ddd}{%
+           family={Essen},
+           familyi={E\bibinitperiod},
+           given={D.\bibnamedelimi C.\bibnamedelimi Van},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7ccc75eef2899be6149bd856270c9563}
+      \strng{fullhash}{e3d735e75e51070f50584951f547b80a}
+      \strng{bibnamehash}{7ccc75eef2899be6149bd856270c9563}
+      \strng{authorbibnamehash}{7ccc75eef2899be6149bd856270c9563}
+      \strng{authornamehash}{7ccc75eef2899be6149bd856270c9563}
+      \strng{authorfullhash}{e3d735e75e51070f50584951f547b80a}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Neurosci.}
+      \field{title}{The complete pattern of ocular dominance stripes in the striate cortex and visual field of the macaque monkey}
+      \field{volume}{5}
+      \field{year}{1985}
+      \field{pages}{486\bibrangedash 501}
+      \range{pages}{16}
     \endentry
     \entry{levay:1979}{incollection}{}
       \name{author}{2}{}{%
@@ -1281,25 +1326,25 @@
            given={Simon},
            giveni={S\bibinitperiod},
            givenun=2}}%
-        {{un=0,uniquepart=base,hash=d2f9587a4c2d6538b5208a9f838fe6a3}{%
-           family={N.\bibnamedelimi Wiesel},
-           familyi={N\bibinitperiod\bibinitdelim W\bibinitperiod},
-           given={Torsten},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f7c4e7eec2a1ee27c6f6654718bd1f38}{%
-           family={H.\bibnamedelimi Hubel},
-           familyi={H\bibinitperiod\bibinitdelim H\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
+        {{un=2,uniquepart=given,hash=9983ff1caee0d9e4db67358c018fc205}{%
+           family={Wiesel},
+           familyi={W\bibinitperiod},
+           given={Torsten\bibnamedelima N.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=bd60e0ff340eedf45ac4f5f2ae90159b}{%
+           family={Hubel},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=2}}%
       }
-      \strng{namehash}{0c08c9f7af6b347d068b7608451713f0}
-      \strng{fullhash}{0c08c9f7af6b347d068b7608451713f0}
-      \strng{bibnamehash}{0c08c9f7af6b347d068b7608451713f0}
-      \strng{authorbibnamehash}{0c08c9f7af6b347d068b7608451713f0}
-      \strng{authornamehash}{0c08c9f7af6b347d068b7608451713f0}
-      \strng{authorfullhash}{0c08c9f7af6b347d068b7608451713f0}
+      \strng{namehash}{a30a3d450b85a297046ac5eadb69e22e}
+      \strng{fullhash}{a30a3d450b85a297046ac5eadb69e22e}
+      \strng{bibnamehash}{a30a3d450b85a297046ac5eadb69e22e}
+      \strng{authorbibnamehash}{a30a3d450b85a297046ac5eadb69e22e}
+      \strng{authornamehash}{a30a3d450b85a297046ac5eadb69e22e}
+      \strng{authorfullhash}{a30a3d450b85a297046ac5eadb69e22e}
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
@@ -1321,11 +1366,11 @@
            given={Edmund},
            giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=529845f0ec0382a232251ae60be63cfa}{%
-           family={D.\bibnamedelimi Frostig},
-           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
-           given={Ron},
-           giveni={R\bibinitperiod},
+        {{un=0,uniquepart=base,hash=6c28cf67bb1f234478e3d1d5f06ce2f3}{%
+           family={Frostig},
+           familyi={F\bibinitperiod},
+           given={Ron\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=a7c5cb77c640371ca88b0b96a3143579}{%
            family={Aieli},
@@ -1333,11 +1378,11 @@
            given={Amos},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=d6ec1dc0679d66a91b2d482f9924c8ea}{%
-           family={Y.\bibnamedelimi Tso},
-           familyi={Y\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
+        {{un=0,uniquepart=base,hash=02a4c97e8b52825dc13c5c20b2aec6c4}{%
+           family={Tso},
+           familyi={T\bibinitperiod},
+           given={Daniel\bibnamedelima Y.},
+           giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=1718581cc14e068183eca53f66a6d4d9}{%
            family={Hildesheimer},
@@ -1353,11 +1398,11 @@
            givenun=0}}%
       }
       \strng{namehash}{ecfdfc8d5a58d93cc044cb8a6139074b}
-      \strng{fullhash}{8f8c4579052298efcca8854ed068eee8}
+      \strng{fullhash}{a8cb766db54b3d3bda5bc5ea7e5cf1ac}
       \strng{bibnamehash}{ecfdfc8d5a58d93cc044cb8a6139074b}
       \strng{authorbibnamehash}{ecfdfc8d5a58d93cc044cb8a6139074b}
       \strng{authornamehash}{ecfdfc8d5a58d93cc044cb8a6139074b}
-      \strng{authorfullhash}{8f8c4579052298efcca8854ed068eee8}
+      \strng{authorfullhash}{a8cb766db54b3d3bda5bc5ea7e5cf1ac}
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
@@ -1399,14 +1444,60 @@
       \field{pages}{8390\bibrangedash 8394}
       \range{pages}{5}
     \endentry
+    \entry{loewel:1988}{article}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=3c46a1c1ed02a0a6b6be1b386c96b8f3}{%
+           family={Löwel},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=d5cf7c6c870489cac8dfdb6c0820a636}{%
+           family={Bischof},
+           familyi={B\bibinitperiod},
+           given={H.-J.},
+           giveni={H\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77846ac4866d1d022b9915169e036072}{%
+           family={Leutenecker},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27515ed8ea87500fc8f5a164b4e2fcf9}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e83c1edff7483c37b2d781fda9b3ae92}
+      \strng{fullhash}{d93fe1cd297d1d5eafb62b8c3f8e17c7}
+      \strng{bibnamehash}{e83c1edff7483c37b2d781fda9b3ae92}
+      \strng{authorbibnamehash}{e83c1edff7483c37b2d781fda9b3ae92}
+      \strng{authornamehash}{e83c1edff7483c37b2d781fda9b3ae92}
+      \strng{authorfullhash}{d93fe1cd297d1d5eafb62b8c3f8e17c7}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Exp. Brain Res.}
+      \field{title}{Topographic relations between ocular dominance and orientation columns in the cat striate cortex}
+      \field{volume}{71}
+      \field{year}{1988}
+      \field{pages}{33\bibrangedash 46}
+      \range{pages}{14}
+    \endentry
     \entry{loewel:1994}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=85c080b055e605a977578db892a5c714}{%
+        {{un=2,uniquepart=given,hash=85c080b055e605a977578db892a5c714}{%
            family={Löwel},
            familyi={L\bibinitperiod},
            given={Siegrid},
            giveni={S\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{85c080b055e605a977578db892a5c714}
       \strng{fullhash}{85c080b055e605a977578db892a5c714}
@@ -1420,7 +1511,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Neurosci.}
+      \field{journaltitle}{J. Neurosci.}
       \field{title}{Ocular Dominance Column Development: Strabismus Changes the Spacing of Adjacent Columns in Cat Visual Cortex}
       \field{volume}{14}
       \field{year}{1994}
@@ -1429,12 +1520,12 @@
     \endentry
     \entry{loewel:1996}{unpublished}{}
       \name{author}{5}{ul=2}{%
-        {{un=0,uniquepart=base,hash=85c080b055e605a977578db892a5c714}{%
+        {{un=2,uniquepart=given,hash=85c080b055e605a977578db892a5c714}{%
            family={Löwel},
            familyi={L\bibinitperiod},
            given={Siegrid},
            giveni={S\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=2d50a18175e6611be07735f1c4b4d60c}{%
            family={Schmidt},
            familyi={S\bibinitperiod},
@@ -1473,23 +1564,57 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{in Vorbereitung}
-      \field{title}{The layout of orientation- and ocular dominance domains in area~17 of strabismic cats}
+      \field{title}{The layout of orientation- and ocular dominance domains in area 17 of strabismic cats}
       \field{year}{1996}
     \endentry
-    \entry{loewel:1990}{article}{}
+    \entry{loewel:1987}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=85c080b055e605a977578db892a5c714}{%
+        {{un=2,uniquepart=given,hash=85c080b055e605a977578db892a5c714}{%
            family={Löwel},
            familyi={L\bibinitperiod},
            given={Siegrid},
            giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=974000371a3ba2b0a655dec8d315a71a}{%
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=27515ed8ea87500fc8f5a164b4e2fcf9}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{0c3d2a954fa07d981a0dca6a68f156f9}
+      \strng{fullhash}{0c3d2a954fa07d981a0dca6a68f156f9}
+      \strng{bibnamehash}{0c3d2a954fa07d981a0dca6a68f156f9}
+      \strng{authorbibnamehash}{0c3d2a954fa07d981a0dca6a68f156f9}
+      \strng{authornamehash}{0c3d2a954fa07d981a0dca6a68f156f9}
+      \strng{authorfullhash}{0c3d2a954fa07d981a0dca6a68f156f9}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Exp. Brain Res.}
+      \field{title}{The pattern of ocular dominance columns in flat-mounts of the cat visual cortex}
+      \field{volume}{68}
+      \field{year}{1987}
+      \field{pages}{661\bibrangedash 666}
+      \range{pages}{6}
+    \endentry
+    \entry{loewel:1990}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=85c080b055e605a977578db892a5c714}{%
+           family={Löwel},
+           familyi={L\bibinitperiod},
+           given={Siegrid},
+           giveni={S\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=974000371a3ba2b0a655dec8d315a71a}{%
            family={Singer},
            familyi={S\bibinitperiod},
            given={Wolf},
            giveni={W\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{5871e41ef74cdc33a803fc62100718b1}
       \strng{fullhash}{5871e41ef74cdc33a803fc62100718b1}
@@ -1509,37 +1634,6 @@
       \field{year}{1990}
       \field{pages}{99\bibrangedash 116}
       \range{pages}{18}
-    \endentry
-    \entry{loewel:1987}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=85c080b055e605a977578db892a5c714}{%
-           family={Löwel},
-           familyi={L\bibinitperiod},
-           given={Siegrid},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=caeb76f889bdd5af7a516c151fc8c51a}{%
-           family={W.\bibnamedelimi Singer},
-           familyi={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{6440a42c157531e42b8b80c5509fb7d1}
-      \strng{fullhash}{6440a42c157531e42b8b80c5509fb7d1}
-      \strng{bibnamehash}{6440a42c157531e42b8b80c5509fb7d1}
-      \strng{authorbibnamehash}{6440a42c157531e42b8b80c5509fb7d1}
-      \strng{authornamehash}{6440a42c157531e42b8b80c5509fb7d1}
-      \strng{authorfullhash}{6440a42c157531e42b8b80c5509fb7d1}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Exp. Brain Res.}
-      \field{title}{The pattern of ocular dominance columns in flat-mounts of the cat visual cortex}
-      \field{volume}{68}
-      \field{year}{1987}
-      \field{pages}{661\bibrangedash 666}
-      \range{pages}{6}
     \endentry
     \entry{marlsburg:1973}{article}{}
       \name{author}{1}{}{%
@@ -1631,54 +1725,54 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Spektrum der Wissenschaft}
-      \field{title}{Hirngrösse und menschliche {E}volution}
+      \field{title}{Hirngrösse und menschliche Evolution}
       \field{volume}{9}
       \field{year}{1995}
       \field{pages}{48\bibrangedash 55}
       \range{pages}{8}
     \endentry
-    \entry{wiesel:1974}{article}{}
+    \entry{movshon:1981}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=d2f9587a4c2d6538b5208a9f838fe6a3}{%
-           family={N.\bibnamedelimi Wiesel},
-           familyi={N\bibinitperiod\bibinitdelim W\bibinitperiod},
-           given={Torsten},
-           giveni={T\bibinitperiod},
+        {{un=0,uniquepart=base,hash=95ecdaf7b11c2e93b457fb327b51cfb8}{%
+           family={Movshon},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f7c4e7eec2a1ee27c6f6654718bd1f38}{%
-           family={H.\bibnamedelimi Hubel},
-           familyi={H\bibinitperiod\bibinitdelim H\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
+        {{un=1,uniquepart=given,hash=42833eea0337e14914551c760a170bad}{%
+           family={Sluyters},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi C.\bibnamedelimi Van},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=1}}%
       }
-      \strng{namehash}{fb1fc328598260a7949259ed91aaf5a0}
-      \strng{fullhash}{fb1fc328598260a7949259ed91aaf5a0}
-      \strng{bibnamehash}{fb1fc328598260a7949259ed91aaf5a0}
-      \strng{authorbibnamehash}{fb1fc328598260a7949259ed91aaf5a0}
-      \strng{authornamehash}{fb1fc328598260a7949259ed91aaf5a0}
-      \strng{authorfullhash}{fb1fc328598260a7949259ed91aaf5a0}
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \strng{namehash}{27deec54b534912a59574a6b1acc60f5}
+      \strng{fullhash}{27deec54b534912a59574a6b1acc60f5}
+      \strng{bibnamehash}{27deec54b534912a59574a6b1acc60f5}
+      \strng{authorbibnamehash}{27deec54b534912a59574a6b1acc60f5}
+      \strng{authornamehash}{27deec54b534912a59574a6b1acc60f5}
+      \strng{authorfullhash}{27deec54b534912a59574a6b1acc60f5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J. Comp. Neurol.}
-      \field{title}{Ordered arrangement of orientation columns in monkeys lacking visual experience}
-      \field{volume}{158}
-      \field{year}{1974}
-      \field{pages}{307\bibrangedash 318}
-      \range{pages}{12}
+      \field{journaltitle}{Ann. Rev. Psychol.}
+      \field{title}{Visual neural development}
+      \field{volume}{32}
+      \field{year}{1981}
+      \field{pages}{477\bibrangedash 522}
+      \range{pages}{46}
     \endentry
     \entry{oby:1993b}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=49b47530760ffc9c1956dd759f68ea4c}{%
+        {{un=2,uniquepart=given,hash=49b47530760ffc9c1956dd759f68ea4c}{%
            family={Obermayer},
            familyi={O\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=2,uniquepart=given,hash=0edb47fe30c7743693a67761e9e672ea}{%
            family={Blasdel},
            familyi={B\bibinitperiod},
@@ -1698,7 +1792,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Neurosci.}
+      \field{journaltitle}{J. Neurosci.}
       \field{title}{Geometry of Orientation and Ocular Dominance Columns in Monkey Striate Cortex}
       \field{volume}{13}
       \field{year}{1993}
@@ -1735,31 +1829,31 @@
     \endentry
     \entry{brown:1990}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=c0f3aef5b9c17ffe5353b73940a02f29}{%
-           family={H.\bibnamedelimi Brown},
-           familyi={H\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod},
+        {{un=0,uniquepart=base,hash=9b17f91128e7cf37189e79fbc3ef8cc9}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Thomas\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9c99a513f9c362f5ef9047f446225765}{%
-           family={W.\bibnamedelimi Kairiss},
-           familyi={W\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Edward},
-           giveni={E\bibinitperiod},
+        {{un=0,uniquepart=base,hash=ac7fd83e58fbd71fcb503dbbd28d77a0}{%
+           family={Kairiss},
+           familyi={K\bibinitperiod},
+           given={Edward\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=69ccb7fd2a5503fd8d64c13a60459aa3}{%
-           family={L.\bibnamedelimi Keenan},
-           familyi={L\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Claude},
-           giveni={C\bibinitperiod},
+        {{un=0,uniquepart=base,hash=b644223abb0f68d220f7bbecd0008baa}{%
+           family={Keenan},
+           familyi={K\bibinitperiod},
+           given={Claude\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{6bc43ed37964c3d56a5b2a490e0cd667}
-      \strng{fullhash}{6bc43ed37964c3d56a5b2a490e0cd667}
-      \strng{bibnamehash}{6bc43ed37964c3d56a5b2a490e0cd667}
-      \strng{authorbibnamehash}{6bc43ed37964c3d56a5b2a490e0cd667}
-      \strng{authornamehash}{6bc43ed37964c3d56a5b2a490e0cd667}
-      \strng{authorfullhash}{6bc43ed37964c3d56a5b2a490e0cd667}
+      \strng{namehash}{6d7e3d0367eae432ba65f5ed69d33b10}
+      \strng{fullhash}{6d7e3d0367eae432ba65f5ed69d33b10}
+      \strng{bibnamehash}{6d7e3d0367eae432ba65f5ed69d33b10}
+      \strng{authorbibnamehash}{6d7e3d0367eae432ba65f5ed69d33b10}
+      \strng{authornamehash}{6d7e3d0367eae432ba65f5ed69d33b10}
+      \strng{authorfullhash}{6d7e3d0367eae432ba65f5ed69d33b10}
       \field{sortinit}{r}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
@@ -1815,83 +1909,6 @@
       \field{pages}{7\bibrangedash 28}
       \range{pages}{22}
     \endentry
-    \entry{levayetal:1985}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=d0f91dc3486a4d44c9c6a18e47dac1b3}{%
-           family={S.\bibnamedelimi LeVay},
-           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=6a8f56e4105bb057e7f5d0e9878d212b}{%
-           family={H.\bibnamedelimi Connolly},
-           familyi={H\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=89b6e1c85e1e0da3bdd8bece0c6ae6c2}{%
-           family={J.\bibnamedelimi Houde},
-           familyi={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=b4b28d042c19788c385ee3396a9b3ddd}{%
-           family={Essen},
-           familyi={E\bibinitperiod},
-           given={D.\bibnamedelimi C.\bibnamedelimi Van},
-           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e6102cc8820600036cb3df7ccc70707d}
-      \strng{fullhash}{f07bb58c258ccc6527a2770d36be1f48}
-      \strng{bibnamehash}{e6102cc8820600036cb3df7ccc70707d}
-      \strng{authorbibnamehash}{e6102cc8820600036cb3df7ccc70707d}
-      \strng{authornamehash}{e6102cc8820600036cb3df7ccc70707d}
-      \strng{authorfullhash}{f07bb58c258ccc6527a2770d36be1f48}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{J.~Neurosci.}
-      \field{title}{The complete pattern of ocular dominance stripes in the striate cortex and visual field of the macaque monkey}
-      \field{volume}{5}
-      \field{year}{1985}
-      \field{pages}{486\bibrangedash 501}
-      \range{pages}{16}
-    \endentry
-    \entry{loewel:1988}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=569079915f3084d847cfff39e8d6b5f2}{%
-           family={S.\bibnamedelimi Löwel},
-           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=2de3e79a6a525b856339a4dbf6d757ae}{%
-           family={H.-J.\bibnamedelimi Bischof},
-           familyi={H\bibinithyphendelim J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=77846ac4866d1d022b9915169e036072}{%
-           family={Leutenecker},
-           familyi={L\bibinitperiod},
-           given={B.\bibnamedelimi },
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=caeb76f889bdd5af7a516c151fc8c51a}{%
-           family={W.\bibnamedelimi Singer},
-           familyi={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{fc553953d6f1a3218b193dc963b324e5}
-      \strng{fullhash}{2ed1ccde173079eba1bc1041fcd5592d}
-      \strng{bibnamehash}{fc553953d6f1a3218b193dc963b324e5}
-      \strng{authorbibnamehash}{fc553953d6f1a3218b193dc963b324e5}
-      \strng{authornamehash}{fc553953d6f1a3218b193dc963b324e5}
-      \strng{authorfullhash}{2ed1ccde173079eba1bc1041fcd5592d}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Exp. Brain Res.}
-      \field{title}{Topographic relations between ocular dominance and orientation columns in the cat striate cortex}
-      \field{volume}{71}
-      \field{year}{1988}
-      \field{pages}{33\bibrangedash 46}
-      \range{pages}{14}
-    \endentry
     \entry{scherf:1994}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2e5e3886d8ea62560fa43c42b5a6efa3}{%
@@ -1905,7 +1922,7 @@
         {Institut für Theoretische Physik, Johann-Wolfgang Goethe Universität}%
       }
       \list{location}{1}{%
-        {Frankfurt am {M}ain}%
+        {Frankfurt am Main}%
       }
       \strng{namehash}{2e5e3886d8ea62560fa43c42b5a6efa3}
       \strng{fullhash}{2e5e3886d8ea62560fa43c42b5a6efa3}
@@ -1919,9 +1936,43 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Strukturbildung im {K}ortex}
+      \field{title}{Strukturbildung im {K} ortex}
       \field{type}{mathesis}
       \field{year}{1994}
+    \endentry
+    \entry{shatz:1978}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80a1a88f0bb929e0221f121d0b7510ec}{%
+           family={Shatz},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e07dee0b7b9eb2d655f77ec36eb510a}{%
+           family={Stryker},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19711ef45f240afd97278530063325c1}
+      \strng{fullhash}{19711ef45f240afd97278530063325c1}
+      \strng{bibnamehash}{19711ef45f240afd97278530063325c1}
+      \strng{authorbibnamehash}{19711ef45f240afd97278530063325c1}
+      \strng{authornamehash}{19711ef45f240afd97278530063325c1}
+      \strng{authorfullhash}{19711ef45f240afd97278530063325c1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Physiol. (London)}
+      \field{title}{Ocular dominance in layer {IV} of the cat's visual cortex and the effects of monocular deprivation}
+      \field{volume}{281}
+      \field{year}{1978}
+      \field{pages}{267\bibrangedash 283}
+      \range{pages}{17}
     \endentry
     \entry{swindale:1992}{article}{}
       \name{author}{1}{}{%
@@ -1984,6 +2035,40 @@
       \field{pages}{351\bibrangedash 356}
       \range{pages}{6}
     \endentry
+    \entry{wiesel:1974}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=9983ff1caee0d9e4db67358c018fc205}{%
+           family={Wiesel},
+           familyi={W\bibinitperiod},
+           given={Torsten\bibnamedelima N.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=bd60e0ff340eedf45ac4f5f2ae90159b}{%
+           family={Hubel},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{b654ec81e3f0e8e23de587c4dbde673d}
+      \strng{fullhash}{b654ec81e3f0e8e23de587c4dbde673d}
+      \strng{bibnamehash}{b654ec81e3f0e8e23de587c4dbde673d}
+      \strng{authorbibnamehash}{b654ec81e3f0e8e23de587c4dbde673d}
+      \strng{authornamehash}{b654ec81e3f0e8e23de587c4dbde673d}
+      \strng{authorfullhash}{b654ec81e3f0e8e23de587c4dbde673d}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Comp. Neurol.}
+      \field{title}{Ordered arrangement of orientation columns in monkeys lacking visual experience}
+      \field{volume}{158}
+      \field{year}{1974}
+      \field{pages}{307\bibrangedash 318}
+      \range{pages}{12}
+    \endentry
     \entry{wolf:1996}{unpublished}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d880345fdd4cef5726ba4085eac51380}{%
@@ -2011,37 +2096,9 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{in {V}orbereitung}
+      \field{note}{in Vorbereitung}
       \field{title}{Spontaneous pinwheel-annihilation during visual development}
       \field{year}{1996}
-    \endentry
-    \entry{fregnac:1984}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c2e0ad084a119fc00f47b3300e9789f6}{%
-           family={Y.\bibnamedelimi Frégnac},
-           familyi={Y\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=d7e8963c004e92a220605d29c96e2a2b}{%
-           family={M.\bibnamedelimi Imbert},
-           familyi={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-      }
-      \strng{namehash}{a95af95a8c0ed9bd283aa1dbce48aded}
-      \strng{fullhash}{a95af95a8c0ed9bd283aa1dbce48aded}
-      \strng{bibnamehash}{a95af95a8c0ed9bd283aa1dbce48aded}
-      \strng{authorbibnamehash}{a95af95a8c0ed9bd283aa1dbce48aded}
-      \strng{authornamehash}{a95af95a8c0ed9bd283aa1dbce48aded}
-      \strng{authorfullhash}{a95af95a8c0ed9bd283aa1dbce48aded}
-      \field{sortinit}{Y}
-      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physiol. Rev.}
-      \field{title}{Development of neuronal selectivity in primary visual cortex of cats}
-      \field{volume}{64}
-      \field{year}{1984}
-      \field{pages}{325\bibrangedash 434}
-      \range{pages}{110}
     \endentry
   \enddatalist
   \missing{-}

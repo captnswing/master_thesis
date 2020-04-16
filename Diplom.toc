@@ -51,4 +51,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}Entwicklung der Energie des elastischen Netzes}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Numerische Integration der Dynamik}{43}%
+\contentsline {section}{\numberline {B}Numerische Integration der Dynamik}{42}%
