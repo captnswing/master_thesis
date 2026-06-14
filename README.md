@@ -83,6 +83,11 @@ biber --tool --validate-datamodel bibtex/diplom.bib
 biber --tool --validate-datamodel bibtex/neuro.bib
 ```
 
+`betterbib` writes a disposable `betterbib_cache.sqlite` (Crossref lookups) into
+its working directory. It is not part of the PDF build and is safe to delete; to
+keep it out of the repo root, run the recipe from `build/`. `make clean` also
+removes a stray copy.
+
 ## Source layout
 
 | File / dir            | Purpose                                            |

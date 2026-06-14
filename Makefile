@@ -49,6 +49,7 @@ local:
 # ---- Housekeeping -----------------------------------------------------------
 clean:
 	rm -rf build
+	rm -f betterbib_cache.sqlite   # stray cache if betterbib was run from the repo root
 
 distclean: clean
 	-docker image rm $(IMAGE) 2>/dev/null || true
