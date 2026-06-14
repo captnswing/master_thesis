@@ -87,8 +87,9 @@ Essen); malformed multi-name fields (Krönig/Lang, Rogers/Vemuri with a stray Ge
 Roman → Arabic volumes, articles carrying book fields, swapped title/booktitle,
 wrong entry types). `make bib-lint` now reports `ok`.
 
-**Open:** `bonhoeffer:1995` still has a suspect `journaltitle`
-(*Arzneimittel-Forschung*) — flagged for a manual/Crossref check, not fabricated.
+Resolved: `bonhoeffer:1995`'s *Arzneimittel-Forschung* journal looked wrong but is
+**correct** — verified against PubMed 7763325 (Bonhoeffer T., *Arzneimittelforschung*
+1995 Mar;45(3A):351-6). Only its issue number was wrong (`{I}` → `{3A}`).
 
 ## Bibliography tooling; betterbib not bulk-run
 

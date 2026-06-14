@@ -58,6 +58,6 @@ faithful PDF on any machine. Rationale for the choices below is in
 
 ## Workflow
 
-- Branch off `master`; open a PR with `gh`. The owner reviews and merges.
+- Branch off `main`; open a PR with `gh`. The owner reviews and merges.
 - CI (`.github/workflows/build.yml`) builds the PDF in the pinned image and
   uploads it as an artifact (and a Release asset on `v*` tags). Keep it green.
