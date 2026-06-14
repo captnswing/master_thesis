@@ -1,36 +1,55 @@
-# You want latexmk to *always* run, because make does not have all the info.
-# Also, include non-file targets in .PHONY so they are run regardless of any
-# file of the given name existing.
-.PHONY: diplom.pdf all clean
+# Reproducible build for the 1996 Diplomarbeit.
+#
+# Default path needs ONLY Docker — no local TeX install required:
+#
+#     make pdf      build build/diplom.pdf inside the pinned TeXLive image
+#     make diff     render the new PDF next to the canonical 1996 PostScript
+#     make shell    interactive shell in the build container
+#     make local    build with a locally-installed latexmk (no Docker)
+#     make clean      remove the build/ directory
+#     make distclean  clean + drop the locally-built Docker image
+#
+# The actual build command lives in one place (the `local` rule + .latexmkrc);
+# `pdf` just runs `make local` inside the container, so there is no duplication.
 
-# The first rule in a Makefile is the one executed by default ("make"). It
-# should always be the "all" rule, so that "make" and "make all" are identical.
-all: diplom.pdf
+IMAGE   := thesis-tex
+STAMP   := .docker-image-stamp
+LATEXMK := latexmk           # configured via .latexmkrc
 
-# CUSTOM BUILD RULES
+# Run a command in the pinned image, as the host user, with the repo mounted.
+# HOME=/tmp gives latexmk/biber a writable cache dir.
+DOCKER_RUN := docker run --rm -u $(shell id -u):$(shell id -g) \
+		-e HOME=/tmp -v "$(CURDIR)":/work -w /work $(IMAGE)
 
-# In case you didn't know, '$@' is a variable holding the name of the target,
-# and '$<' is a variable holding the (first) dependency of a rule.
-# "raw2tex" and "dat2tex" are just placeholders for whatever custom steps
-# you might have.
+.PHONY: all pdf local diff shell image clean distclean
+.DEFAULT_GOAL := pdf
 
-%.tex: %.raw
-	./raw2tex $< > $@
+all: pdf
 
-%.tex: %.dat
-	./dat2tex $< > $@
+# ---- Docker-first (default) -------------------------------------------------
+pdf: $(STAMP)
+	$(DOCKER_RUN) make local
 
-# MAIN LATEXMK RULE
+diff: pdf
+	$(DOCKER_RUN) bash scripts/compare.sh
 
-# -pdf tells latexmk to generate PDF directly (instead of DVI).
-# -pdflatex="" tells latexmk to call a specific backend with specific options.
-# -use-make tells latexmk to call make for generating missing files.
+shell: $(STAMP)
+	docker run --rm -it -u $(shell id -u):$(shell id -g) \
+		-e HOME=/tmp -v "$(CURDIR)":/work -w /work $(IMAGE) bash
 
-# -interaction=nonstopmode keeps the pdflatex backend from stopping at a
-# missing file reference and interactively asking you for an alternative.
+image: $(STAMP)
+$(STAMP): Dockerfile
+	docker build -t $(IMAGE) .
+	@touch $(STAMP)
 
-diplom.pdf: diplom.tex
-	latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" -use-make diplom.tex
+# ---- Local fallback (requires a TeX install on the host) --------------------
+local:
+	$(LATEXMK) diplom.tex
 
+# ---- Housekeeping -----------------------------------------------------------
 clean:
-	latexmk -CA
+	rm -rf build
+
+distclean: clean
+	-docker image rm $(IMAGE) 2>/dev/null || true
+	rm -f $(STAMP)

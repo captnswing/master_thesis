@@ -1,4 +1,13 @@
 .idea
+
+# build output (everything generated lands in build/ via .latexmkrc)
+build/
+.docker-image-stamp
+
+# stray TeX/biber artifacts (in case of a non-out_dir local run)
+*.aux
+*.toc
+*.bbl
 *.log
 *.blg
 *.gz
@@ -7,3 +16,6 @@
 *-eps-converted-to.pdf
 *.bcf
 *.run.xml
+*.synctex.gz
+
+betterbib_cache.sqlite
