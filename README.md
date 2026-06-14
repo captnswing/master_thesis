@@ -1,87 +1,84 @@
 # Diplomarbeit — *Sequentielle Bifurkation visueller Reizrepräsentationen* (1996)
 
-My Physics *Diplomarbeit* (master's thesis), submitted 1996, on the formation of
-ocular-dominance and orientation-preference maps in the primary visual cortex via
-an elastic-net model. This repo keeps the source alive and buildable on modern
-machines without re-learning a LaTeX toolchain on every new computer.
+My Physics *Diplomarbeit* (master's thesis), submitted February 1996 at the
+Institut für Theoretische Physik, Goethe-Universität Frankfurt — on the formation
+of ocular-dominance and orientation-preference maps in the primary visual cortex
+via an elastic-net model.
+
+This repo keeps the source alive and reproducibly buildable on modern machines,
+without re-learning a LaTeX toolchain on every new computer.
 
 ## Build it
 
-The default build needs **only Docker** — no local TeX install:
+The build needs **only Docker** — no local TeX install:
 
 ```sh
 make pdf      # -> build/diplom.pdf  (builds the pinned TeXLive image on first run)
-make diff     # render the new PDF next to the 1996 original for comparison
+make diff     # render the new PDF next to the 1996 original, side by side
 make shell    # interactive shell inside the build container
 make clean    # remove build/
 ```
 
-First `make pdf` builds a Docker image (a pinned `texlive/texlive` plus a couple
-of tools for `make diff`); later runs reuse it. The compiled PDF lands in
-`build/diplom.pdf`.
+`make pdf` builds a pinned `texlive/texlive` Docker image on first run (later runs
+reuse it) and writes `build/diplom.pdf`.
 
-If you *do* have a TeX distribution installed (MacTeX/TeX Live, with `latexmk` and
-`biber`), you can skip Docker entirely:
+Have a TeX distribution already (MacTeX / TeX Live with `latexmk` + `biber`)? Skip
+Docker:
 
 ```sh
 make local    # -> build/diplom.pdf using your host latexmk
 ```
 
-GitHub Actions also builds the PDF on every push using the same pinned image and
-uploads it as a workflow artifact (and attaches it to a Release on version tags),
-so you can download a fresh PDF without building anything locally.
+GitHub Actions also builds the PDF on every push in the same pinned image and
+uploads it as an artifact (and a Release asset on `v*` tags) — so you can download
+a fresh PDF without building anything.
 
 ## Provenance & the canonical originals
 
-The LaTeX source in this repo has been modernized over the years (it is LaTeX2e
-with `biblatex`/`biber`, `graphicx`, UTF-8, etc.); the original 1996 LaTeX 2.09
-source no longer survives. The **canonical artifacts** are the two PostScript
-files that were actually submitted to the examination office (*Prüfungsamt*),
-produced by `dvipsk 5.58c` at 600 dpi on 1996-03-11:
+The LaTeX source has been modernized over the years (LaTeX2e, `biblatex`/`biber`,
+UTF-8); the original 1996 LaTeX 2.09 source no longer survives. The **canonical
+artifacts** are the two PostScript files submitted to the examination office
+(*Prüfungsamt*), produced by `dvipsk 5.58c` at 600 dpi on 1996-03-11:
 
 - **`Pruefungsamt.bw.ps`** — the full 41-page black-and-white text.
-- **`Pruefungsamt.color.ps`** — the 6 color figure plates.
+- **`Pruefungsamt.color.ps`** — the 6 color figure plates (pages 3, 12, 16, 25,
+  32, 33 of the 46-page print, swapped in on a color printer).
 
-These are kept under version control and are the reference for `make diff`.
+They are kept under version control, must not be deleted, and are the reference
+for `make diff`. Because no source survives, the modern build aims to be *faithful
+but clean* rather than pixel-identical — see [DECISIONS.md](DECISIONS.md).
 
-## Fidelity notes
+## Bibliography
 
-Because no 1996 source remains, pixel-perfect reproduction is impossible. The goal
-is a clean modern build that stays faithful to the original layout:
-
-- `lmodern` provides vector Latin Modern fonts — the faithful descendant of the
-  1996 Computer Modern look, without the blurry bitmap fonts.
-- The original layout packages (`geometry` A4, `fancyhdr`, `epsfig`, the heading
-  macros in `hacks.tex`) are kept as-is; no layout-altering packages were added.
-- Use `make diff` to compare the rendered PDF against `Pruefungsamt.bw.ps`
-  page-by-page.
-
-## Bibliography maintenance
-
-Bibliographies live in `bibtex/*.bib` and are rendered with `biblatex` +
-`biber` (`authoryear` style). To normalize/validate the databases:
+Bibliographies live in `bibtex/*.bib`, rendered with `biblatex` + `biber`
+(`authoryear`). Author given names are kept as **initials** (matching the 1996
+thesis). Two maintenance targets — a linter and a formatter:
 
 ```sh
-# https://github.com/nschloe/betterbib
-pip install betterbib
-betterbib-sync bibtex/chaos.bib  | betterbib-journal-abbrev | betterbib-format -b - c.bib
-betterbib-sync bibtex/diplom.bib | betterbib-journal-abbrev | betterbib-format -b - d.bib
-betterbib-sync bibtex/neuro.bib  | betterbib-journal-abbrev | betterbib-format -b - n.bib
-
-biber --tool --validate-datamodel bibtex/chaos.bib
-biber --tool --validate-datamodel bibtex/diplom.bib
-biber --tool --validate-datamodel bibtex/neuro.bib
+make bib-lint     # biber datamodel validator — should print "ok" per file
+make bib-format   # bibtex-tidy formatter (needs node/pnpm); edits in place
 ```
 
-## Source layout
+`betterbib` (Crossref) is **not** part of routine maintenance — it re-expands
+names and mis-matches old entries; use it only as a one-off spot-check. Details in
+[DECISIONS.md](DECISIONS.md).
 
-| File / dir            | Purpose                                            |
-|-----------------------|----------------------------------------------------|
-| `diplom.tex`          | root document (preamble + `\include`s)             |
-| `hacks.tex`           | heading/caption/header macros                      |
+## Repo layout
+
+| File / dir | Purpose |
+|---|---|
+| `diplom.tex` | root document (preamble + `\include`s) — **lowercase on purpose** |
+| `hacks.tex` | heading / caption / header macros |
 | `titel`, `einleitung`, `biologie`, `modell`, `main`, `zusammenfassung`, `anhang1`, `anhang2` `.tex` | chapters / appendices |
-| `pics/*.eps`          | figures (Encapsulated PostScript)                  |
-| `bibtex/*.bib`        | bibliography databases                             |
-| `Dockerfile`, `.latexmkrc`, `Makefile` | reproducible build toolchain      |
-| `scripts/compare.sh`  | `make diff` rendering pipeline                     |
-| `Pruefungsamt.*.ps`   | canonical 1996 submission (do not delete)          |
+| `pics/*.eps` | figures (Encapsulated PostScript) |
+| `bibtex/*.bib` | bibliography databases |
+| `Dockerfile`, `.latexmkrc`, `Makefile` | reproducible build toolchain |
+| `scripts/compare.sh` | `make diff` rendering pipeline |
+| `Pruefungsamt.*.ps` | canonical 1996 submission (do not delete) |
+| `CLAUDE.md`, `DECISIONS.md` | contributor/AI working notes and the decision log |
+
+## Contributing
+
+- [CLAUDE.md](CLAUDE.md) — build commands, conventions, and hard rules (also read
+  by Claude Code).
+- [DECISIONS.md](DECISIONS.md) — why the repo is set up the way it is.
