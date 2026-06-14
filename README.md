@@ -40,9 +40,19 @@ files that were actually submitted to the examination office (*Prüfungsamt*),
 produced by `dvipsk 5.58c` at 600 dpi on 1996-03-11:
 
 - **`Pruefungsamt.bw.ps`** — the full 41-page black-and-white text.
-- **`Pruefungsamt.color.ps`** — the 6 color figure plates.
+- **`Pruefungsamt.color.ps`** — the 6 color figure plates. These correspond to
+  the 6 color pages noted in the old `00README` (pages 3, 12, 16, 25, 32, 33 of
+  the 46-page print): the thesis was printed black-and-white with these six pages
+  swapped in on a color printer.
 
 These are kept under version control and are the reference for `make diff`.
+
+The old `00README` also listed three manual "before printing" edits to the
+*generated* `.bbl`/`.toc` files (plain page style on the contents and bibliography
+pages; "Master's Thesis" → "Diplomarbeit" for the German theses). Those are now
+done in the **source** instead, so `make pdf` reproduces the 1996 finishing
+automatically — see `\thispagestyle{plain}` in `titel.tex`/`diplom.tex` and the
+`\DefineBibliographyStrings{german}{mathesis = {Diplomarbeit}}` line in `diplom.tex`.
 
 ## Fidelity notes
 

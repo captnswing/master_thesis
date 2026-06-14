@@ -18,6 +18,11 @@
 \addbibresource{bibtex/chaos.bib}
 \addbibresource{bibtex/neuro.bib}
 
+% The German theses cited here (TYPE=mathesis) are Diplomarbeiten, not
+% Magisterarbeiten. In 1996 this was a manual "Master's Thesis"->"Diplomarbeit"
+% edit in the generated .bbl (see 00README); now it's done at the source.
+\DefineBibliographyStrings{german}{mathesis = {Diplomarbeit}}
+
 % some hacks before we start
 \pagestyle{fancyplain}
 \input{hacks.tex}
@@ -40,5 +45,6 @@
     \include{anhang1}
     \include{anhang2}
     \clearpage
+    \thispagestyle{plain}    % plain header on the first bibliography page (was a manual .bbl edit in 1996)
     \printbibliography
 \end{document}
