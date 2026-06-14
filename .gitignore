@@ -1,21 +1,36 @@
-.idea
+# OS / editor cruft
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
 
-# build output (everything generated lands in build/ via .latexmkrc)
+# Build output — everything generated lands in build/ (via .latexmkrc out_dir)
 build/
 .docker-image-stamp
 
-# stray TeX/biber artifacts (in case of a non-out_dir local run)
+# Stray LaTeX / biber artifacts, in case anything is run in the repo root
+# instead of through latexmk's build/ dir. (The canonical Pruefungsamt.*.ps
+# and pics/*.eps are tracked and unaffected — no *.ps / *.eps rules here.)
 *.aux
-*.toc
 *.bbl
-*.log
+*.bcf
 *.blg
-*.gz
+*.dvi
 *.fdb_latexmk
 *.fls
-*-eps-converted-to.pdf
-*.bcf
+*.lof
+*.log
+*.lot
+*.out
 *.run.xml
 *.synctex.gz
+*.toc
+*.xdv
+*-eps-converted-to.pdf
+*.pdf
 
+# Bibliography tooling
 betterbib_cache.sqlite

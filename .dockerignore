@@ -1,0 +1,8 @@
+# The image build COPYs nothing into the image — the repo is bind-mounted at
+# build/run time (see Makefile / Dockerfile). So send an essentially empty build
+# context: `docker build` stays fast and never ships the ~19 MB of canonical
+# PostScript, the figures, or the git history to the daemon.
+#
+# If a future Dockerfile adds a COPY, un-ignore that path with a `!` rule below.
+*
+!Dockerfile
