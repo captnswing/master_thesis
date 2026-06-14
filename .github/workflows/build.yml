@@ -14,13 +14,13 @@ jobs:
     container:
       image: texlive/texlive@sha256:a78cd7792625e4245dc73cd5db390f0b9e6c2c7c14ac8b6ca59f023ef25ea282
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Build PDF
         run: latexmk diplom.tex   # configured by .latexmkrc -> build/diplom.pdf
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: diplom-pdf
           path: build/diplom.pdf
