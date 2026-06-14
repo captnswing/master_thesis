@@ -28,7 +28,7 @@
 {-1em}%                                                 %
 {\reset@font\normalsize\sffamily}}                      %
 \makeatother                                            % protect use of '@' sign
-\renewcommand{\captionlabelfont}{\bfseries\sffamily}    % captionlabelfont...
+\captionsetup{labelfont={bf,sf}}                        % bold sans-serif caption label
 
 
 %
@@ -36,16 +36,14 @@
 %
 \addtolength{\headwidth}{0.6\marginparwidth}            % make headline wider
 \addtolength{\headheight}{2.5pt}                        % make headline higher
-%\setlength{\plainheadrulewidth}{0.4pt}                 % plain headrule
 \setlength{\parskip}{0.0pt}                             % no skip at new paragraph
-%\setlength{\parindent}{0.0pt}                          % no indent at new paragraph
 
 
 %
 % some fancy headings and footnotes...
 %
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
-\renewcommand{\sectionmark}[1]{\markboth{\uppercase{#1}}{\uppercase{#1}}}
+\renewcommand{\sectionmark}[1]{\markboth{\MakeUppercase{#1}}{\MakeUppercase{#1}}}
 \renewcommand{\subsectionmark}[1]{\markright{\thesubsection\ \ #1}}
 \lhead[\fancyplain{\bfseries\thepage}{\bfseries\thepage}]{\fancyplain{}{\slshape\rightmark}}
 \rhead[\fancyplain{}{\slshape\leftmark}]{\fancyplain{\bfseries\thepage}{\bfseries\thepage}}
