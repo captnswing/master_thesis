@@ -68,25 +68,35 @@ is a clean modern build that stays faithful to the original layout:
 
 ## Bibliography maintenance
 
-Bibliographies live in `bibtex/*.bib` and are rendered with `biblatex` +
-`biber` (`authoryear` style). To normalize/validate the databases:
+Bibliographies live in `bibtex/*.bib` and are rendered with `biblatex` + `biber`
+(`authoryear` style). Author given names are normalized to **initials** (matching
+the 1996 thesis); keep new entries consistent.
+
+The "ruff for .bib" — two make targets:
 
 ```sh
-# https://github.com/nschloe/betterbib
-pip install betterbib
-betterbib-sync bibtex/chaos.bib  | betterbib-journal-abbrev | betterbib-format -b - c.bib
-betterbib-sync bibtex/diplom.bib | betterbib-journal-abbrev | betterbib-format -b - d.bib
-betterbib-sync bibtex/neuro.bib  | betterbib-journal-abbrev | betterbib-format -b - n.bib
-
-biber --tool --validate-datamodel bibtex/chaos.bib
-biber --tool --validate-datamodel bibtex/diplom.bib
-biber --tool --validate-datamodel bibtex/neuro.bib
+make bib-lint     # biber datamodel validator (the linter) — Docker only
+make bib-format   # bibtex-tidy formatter — needs node/pnpm on the host; edits in place
 ```
 
-`betterbib` writes a disposable `betterbib_cache.sqlite` (Crossref lookups) into
-its working directory. It is not part of the PDF build and is safe to delete; to
-keep it out of the repo root, run the recipe from `build/`. `make clean` also
-removes a stray copy.
+`make bib-lint` should report `ok` for every file. `make bib-format` imposes
+`bibtex-tidy`'s layout — review the diff before committing.
+
+### betterbib (optional, Crossref) — use sparingly
+
+`betterbib` canonicalizes entries against Crossref (names, titles, journals,
+DOIs):
+
+```sh
+# https://github.com/nschloe/betterbib  —  pip install betterbib
+betterbib-sync bibtex/diplom.bib | betterbib-journal-abbrev | betterbib-format -b - d.bib
+```
+
+**Do not bulk-run it.** It re-expands abbreviated author names to Crossref's full
+forms (undoing the initials convention), and it can mis-match the many old/obscure
+entries (1970s physics, conference abstracts, *Diplomarbeiten*) that Crossref does
+not index. Use it only as a **targeted spot-check** on a single suspect entry.
+It writes a disposable `betterbib_cache.sqlite`; `make clean` removes a stray copy.
 
 ## Source layout
 
