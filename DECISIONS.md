@@ -30,10 +30,14 @@ Pixel-perfect reproduction is impossible (no 1996 source), so the target is a
 clean modern build that respects the original layout. Added **`lmodern`** only
 (vector Latin Modern ≈ the 1996 Computer Modern; kills blurry bitmap fonts). **No
 layout-altering packages** and `\epsfig` kept as-is, to avoid shifting line/page
-breaks away from the original. `make diff` rasterizes the build next to
-`Pruefungsamt.bw.ps` for visual comparison. Verified: all text is embedded Type-1
-vector, 0 undefined refs, ~1 inherited overfull box, 47 pages vs the 46-page 1996
-print.
+breaks away from the original. `make diff` rasterizes the build next to a
+**reconstructed** 1996 original for a page-aligned comparison: the 1996 submission
+was a 41-page b/w file (`bw.ps`) plus 6 color plates printed separately (`color.ps`);
+`scripts/compare.sh` interleaves the plates back into the b/w text at their original
+physical positions (4, 13, 17, 26, 33, 34 — the `00README` color pages) to rebuild
+the full 47-page document, which lines up 1:1 with the modern build. Verified: all
+text is embedded Type-1 vector, 0 undefined refs, ~1 inherited overfull box, 47
+pages, pagination identical to 1996 (TOC page numbers match through the appendices).
 
 ## Build output isolated; generated files untracked
 
