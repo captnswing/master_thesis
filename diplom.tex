@@ -13,7 +13,7 @@
 \usepackage[babel=true]{csquotes}
 \usepackage{epsfig,epic,eepic}              % Xfig- and EPS-figures
 \usepackage{fancyhdr}                       % some fancy headings
-\usepackage[backend=biber,style=authoryear,bibencoding=utf8]{biblatex}
+\usepackage[backend=biber,style=authoryear,bibencoding=utf8,uniquename=false,uniquelist=false]{biblatex}
 \addbibresource{bibtex/diplom.bib}
 \addbibresource{bibtex/chaos.bib}
 \addbibresource{bibtex/neuro.bib}
@@ -22,6 +22,13 @@
 % Magisterarbeiten. In 1996 this was a manual "Master's Thesis"->"Diplomarbeit"
 % edit in the generated .bbl (see 00README); now it's done at the source.
 \DefineBibliographyStrings{german}{mathesis = {Diplomarbeit}}
+
+% Match the 1996 apasc citation look: surname-only (uniquename/uniquelist=false
+% above, undoing biblatex's given-name disambiguation that the inconsistent name
+% forms in the .bib would otherwise trigger), small-caps author names, and a
+% comma between the name and the year — "(Hubel, 1989)".
+\renewcommand*{\mkbibnamefamily}[1]{\textsc{#1}}
+\renewcommand*{\nameyeardelim}{\addcomma\space}
 
 % some hacks before we start
 \pagestyle{fancyplain}
