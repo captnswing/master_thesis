@@ -1,0 +1,95 @@
+name: pages
+
+# Publishes a small GitHub Pages site for the thesis: an online reader plus a
+# page-1 cover thumbnail. Everything here is GENERATED from the build — nothing
+# is committed to git (see DECISIONS.md, "don't commit generated files"). The
+# README points at the Pages-hosted cover.png and reader.
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+# Least-privilege token plus the Pages/OIDC scopes deploy-pages needs.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One Pages deploy at a time; newer pushes supersede in-flight runs.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Same pinned image as build.yml / the Dockerfile. The bare texlive image
+    # ships ghostscript (used for the cover) but NOT poppler — so render with gs.
+    container:
+      image: texlive/texlive@sha256:a78cd7792625e4245dc73cd5db390f0b9e6c2c7c14ac8b6ca59f023ef25ea282
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Build PDF
+        run: latexmk diplom.tex   # configured by .latexmkrc -> build/diplom.pdf
+
+      - name: Assemble the Pages site
+        run: |
+          mkdir -p _site
+          cp build/diplom.pdf _site/diplom.pdf
+          # Page-1 cover thumbnail (24-bit RGB, 150 dpi, respecting the crop box).
+          gs -dSAFER -dBATCH -dNOPAUSE -q \
+             -dFirstPage=1 -dLastPage=1 -dUseCropBox \
+             -sDEVICE=png16m -r150 \
+             -sOutputFile=_site/cover.png build/diplom.pdf
+
+      - name: Write index.html (online reader)
+        run: |
+          cat > _site/index.html <<'HTML'
+          <!doctype html>
+          <html lang="de">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Diplomarbeit (1996) — Frank Hoffsümmer</title>
+            <style>
+              :root { color-scheme: light dark; }
+              body { margin: 0; font: 16px/1.5 system-ui, sans-serif; }
+              header { padding: 1rem 1.25rem; border-bottom: 1px solid #8884; }
+              header a { margin-right: 1rem; }
+              .viewer { width: 100%; height: calc(100vh - 4rem); border: 0; }
+            </style>
+          </head>
+          <body>
+            <header>
+              <strong>Sequentielle Bifurkation visueller Reizrepräsentationen</strong> (1996)
+              &nbsp;·&nbsp;
+              <a href="diplom.pdf">Download PDF</a>
+              <a href="https://github.com/captnswing/master-thesis">Source on GitHub</a>
+            </header>
+            <embed class="viewer" src="diplom.pdf" type="application/pdf">
+          </body>
+          </html>
+          HTML
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true   # create/enable the Pages site on first run
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

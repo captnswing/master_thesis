@@ -27,8 +27,9 @@ faithful PDF on any machine. Rationale for the choices below is in
 - **Don't commit generated files.** Everything builds into `build/` (gitignored);
   `*.aux/*.toc/*.bbl/*.pdf` are not tracked.
 - The Docker image is pinned **by digest** in `Dockerfile` (and the same digest in
-  `.github/workflows/build.yml`). To bump: `docker pull texlive/texlive:latest`,
-  read the digest from `docker image inspect`, update **both** places.
+  `.github/workflows/build.yml` and `.github/workflows/pages.yml`). To bump:
+  `docker pull texlive/texlive:latest`, read the digest from `docker image inspect`,
+  update **all three** places.
 
 ## Fidelity (faithful-but-clean)
 

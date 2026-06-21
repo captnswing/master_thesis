@@ -10,12 +10,24 @@ without re-learning a LaTeX toolchain on every new computer.
 
 ## Read it
 
-Don't want to build anything? Download the latest PDF straight from the releases page:
+Don't want to build anything? Read it online or grab the PDF:
 
-**[⬇ diplom.pdf (latest release)](https://github.com/captnswing/master-thesis/releases/latest/download/diplom.pdf)**
+<a href="https://captnswing.github.io/master-thesis/">
+  <img src="https://captnswing.github.io/master-thesis/cover.png" alt="Cover — page 1 of the thesis" width="300" align="right">
+</a>
+
+- **[📖 Read online](https://captnswing.github.io/master-thesis/)** — GitHub Pages reader,
+  rebuilt on every push to `main`.
+- **[⬇ Download diplom.pdf](https://github.com/captnswing/master-thesis/releases/latest/download/diplom.pdf)** —
+  latest tagged release.
 
 Each `v*` tag triggers CI to build the PDF in the pinned image and attach it to the
-[GitHub release](https://github.com/captnswing/master-thesis/releases).
+[GitHub release](https://github.com/captnswing/master-thesis/releases); every push to
+`main` republishes the [online reader](https://captnswing.github.io/master-thesis/) and
+the cover above. (The cover/reader links go live after the first Pages deploy.)
+
+<br clear="right">
+
 
 ## Build it
 
