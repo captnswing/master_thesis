@@ -8,6 +8,15 @@ via an elastic-net model.
 This repo keeps the source alive and reproducibly buildable on modern machines,
 without re-learning a LaTeX toolchain on every new computer.
 
+## Read it
+
+Don't want to build anything? Download the latest PDF straight from the releases page:
+
+**[⬇ diplom.pdf (latest release)](https://github.com/captnswing/master-thesis/releases/latest/download/diplom.pdf)**
+
+Each `v*` tag triggers CI to build the PDF in the pinned image and attach it to the
+[GitHub release](https://github.com/captnswing/master-thesis/releases).
+
 ## Build it
 
 The build needs **only Docker** — no local TeX install:
@@ -30,8 +39,8 @@ make local    # -> build/diplom.pdf using your host latexmk
 ```
 
 GitHub Actions also builds the PDF on every push in the same pinned image and
-uploads it as an artifact (and a Release asset on `v*` tags) — so you can download
-a fresh PDF without building anything.
+uploads it as an artifact (and, on `v*` tags, attaches it to a
+[release](#read-it)) — so you can download a fresh PDF without building anything.
 
 ## Provenance & the canonical originals
 
